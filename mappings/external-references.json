@@ -1,0 +1,472 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-10-22",
+  "description": "Curated external repositories aligned with Copilot Architect KB sections",
+  "categories": {
+    "semantic_kernel": {
+      "title": "Semantic Kernel Ecosystem",
+      "description": "Production patterns and extensions for Microsoft Semantic Kernel",
+      "repositories": [
+        {
+          "name": "SemanticKernel.Assistants",
+          "owner": "kbeaugrand",
+          "url": "https://github.com/kbeaugrand/SemanticKernel.Assistants",
+          "stars": 113,
+          "description": "Multi-assistant conversation patterns for Semantic Kernel",
+          "kb_alignment": "architecture-patterns",
+          "recommendation": "reference",
+          "value": "Demonstrates assistant orchestration and multi-assistant scenarios"
+        },
+        {
+          "name": "SemanticFlow",
+          "owner": "GregorBiswanger",
+          "url": "https://github.com/GregorBiswanger/SemanticFlow",
+          "stars": 73,
+          "description": "State Manager for orchestrating AI-driven workflows with Semantic Kernel",
+          "kb_alignment": "architecture-patterns",
+          "recommendation": "reference",
+          "value": "Modular activity-based workflow management"
+        },
+        {
+          "name": "Legacy-Modernization-Agents",
+          "owner": "Azure-Samples",
+          "url": "https://github.com/Azure-Samples/Legacy-Modernization-Agents",
+          "stars": 68,
+          "description": "AI-powered COBOL to Java modernization using Semantic Kernel",
+          "kb_alignment": "use-cases",
+          "recommendation": "reference",
+          "value": "Official Microsoft sample for agentic modernization"
+        },
+        {
+          "name": "SemanticQuestion10K",
+          "owner": "adhurwit",
+          "url": "https://github.com/adhurwit/SemanticQuestion10K",
+          "stars": 59,
+          "description": "Ask questions to 10K reports using Semantic Kernel and Azure OpenAI",
+          "kb_alignment": "use-cases",
+          "recommendation": "reference",
+          "value": "Financial document Q&A use case"
+        },
+        {
+          "name": "OllamaApiFacade",
+          "owner": "GregorBiswanger",
+          "url": "https://github.com/GregorBiswanger/OllamaApiFacade",
+          "stars": 54,
+          "description": "Run .NET backend as Ollama API using Semantic Kernel",
+          "kb_alignment": "evolution",
+          "recommendation": "reference",
+          "value": "Local model integration with Semantic Kernel"
+        },
+        {
+          "name": "MicrosoftSemanticKernelSamples",
+          "owner": "rvinothrajendran",
+          "url": "https://github.com/rvinothrajendran/MicrosoftSemanticKernelSamples",
+          "stars": 48,
+          "description": "Comprehensive Semantic Kernel samples collection",
+          "kb_alignment": "implementation",
+          "recommendation": "reference",
+          "value": "Learning resource for SK patterns"
+        },
+        {
+          "name": "Building-AI-Applications-with-Microsoft-Semantic-Kernel",
+          "owner": "PacktPublishing",
+          "url": "https://github.com/PacktPublishing/Building-AI-Applications-with-Microsoft-Semantic-Kernel",
+          "stars": 37,
+          "description": "Packt book examples for Semantic Kernel",
+          "kb_alignment": "implementation",
+          "recommendation": "reference",
+          "value": "Structured learning material"
+        },
+        {
+          "name": "semantickernel-microservice",
+          "owner": "goodtocode",
+          "url": "https://github.com/goodtocode/semantickernel-microservice",
+          "stars": 16,
+          "description": "Clean Architecture microservice based on Semantic Kernel",
+          "kb_alignment": "architecture-patterns",
+          "recommendation": "reference",
+          "value": "Production-ready microservice pattern"
+        },
+        {
+          "name": "Multi-AI-Agent-System-with-SemanticKernel",
+          "owner": "akshaykokane",
+          "url": "https://github.com/akshaykokane/Multi-AI-Agent-System-with-SemanticKernel",
+          "stars": 18,
+          "description": "Multi-agent system example with .NET8 and Semantic Kernel",
+          "kb_alignment": "architecture-patterns",
+          "recommendation": "fork-and-enhance",
+          "value": "Could be enhanced with production patterns from KB"
+        },
+        {
+          "name": "Semantic-Kernel-RAG",
+          "owner": "DinithKumudika",
+          "url": "https://github.com/DinithKumudika/Semantic-Kernel-RAG",
+          "stars": 10,
+          "description": "RAG implementation using Semantic Kernel and .NET",
+          "kb_alignment": "architecture-patterns",
+          "recommendation": "fork-and-enhance",
+          "value": "Basic RAG, enhance with advanced patterns from KB"
+        }
+      ]
+    },
+    "azure_ai_foundry": {
+      "title": "Azure AI Foundry Ecosystem",
+      "description": "Agent service, evaluation, and deployment patterns for Azure AI Foundry",
+      "repositories": [
+        {
+          "name": "Conversation-Knowledge-Mining-Solution-Accelerator",
+          "owner": "microsoft",
+          "url": "https://github.com/microsoft/Conversation-Knowledge-Mining-Solution-Accelerator",
+          "stars": 367,
+          "description": "Conversational data insights using Azure AI Foundry, Content Understanding, OpenAI",
+          "kb_alignment": "use-cases",
+          "recommendation": "reference",
+          "value": "Official Microsoft solution accelerator"
+        },
+        {
+          "name": "mcp-foundry",
+          "owner": "azure-ai-foundry",
+          "url": "https://github.com/azure-ai-foundry/mcp-foundry",
+          "stars": 214,
+          "description": "MCP Server for Azure AI Foundry",
+          "kb_alignment": "evolution",
+          "recommendation": "reference",
+          "value": "Official MCP integration"
+        },
+        {
+          "name": "foundry-samples",
+          "owner": "azure-ai-foundry",
+          "url": "https://github.com/azure-ai-foundry/foundry-samples",
+          "stars": 167,
+          "description": "Embedded samples in Azure AI Foundry docs",
+          "kb_alignment": "implementation",
+          "recommendation": "reference",
+          "value": "Official documentation samples"
+        },
+        {
+          "name": "mslearn-ai-studio",
+          "owner": "MicrosoftLearning",
+          "url": "https://github.com/MicrosoftLearning/mslearn-ai-studio",
+          "stars": 153,
+          "description": "Practical exercises for Azure AI Foundry training",
+          "kb_alignment": "implementation",
+          "recommendation": "reference",
+          "value": "Official Microsoft Learn exercises"
+        },
+        {
+          "name": "content-processing-solution-accelerator",
+          "owner": "microsoft",
+          "url": "https://github.com/microsoft/content-processing-solution-accelerator",
+          "stars": 118,
+          "description": "Extract data from unstructured documents using Azure AI Foundry",
+          "kb_alignment": "use-cases",
+          "recommendation": "reference",
+          "value": "Document processing use case"
+        },
+        {
+          "name": "gpt-rag-orchestrator",
+          "owner": "Azure",
+          "url": "https://github.com/Azure/gpt-rag-orchestrator",
+          "stars": 67,
+          "description": "Agentic orchestration layer on Azure AI Foundry Agent Service",
+          "kb_alignment": "architecture-patterns",
+          "recommendation": "reference",
+          "value": "Production-grade agent orchestration"
+        },
+        {
+          "name": "adaptive-rag-workbench",
+          "owner": "Azure-Samples",
+          "url": "https://github.com/Azure-Samples/adaptive-rag-workbench",
+          "stars": 41,
+          "description": "Context-aware agentic RAG with multi-source verification",
+          "kb_alignment": "architecture-patterns",
+          "recommendation": "reference",
+          "value": "Advanced RAG patterns with Semantic Kernel + LangGraph"
+        },
+        {
+          "name": "AIFoundry-AgentService-Streamlit",
+          "owner": "LazaUK",
+          "url": "https://github.com/LazaUK/AIFoundry-AgentService-Streamlit",
+          "stars": 29,
+          "description": "Streamlit UI demo for Azure AI Foundry Agent Service",
+          "kb_alignment": "implementation",
+          "recommendation": "reference",
+          "value": "UI pattern for agent demos"
+        },
+        {
+          "name": "genaiops-azureaisdk-template",
+          "owner": "microsoft",
+          "url": "https://github.com/microsoft/genaiops-azureaisdk-template",
+          "stars": 24,
+          "description": "GenAIOps template using Azure AI Foundry",
+          "kb_alignment": "architecture-patterns",
+          "recommendation": "fork-and-enhance",
+          "value": "Already forked, enhance with CI/CD patterns"
+        },
+        {
+          "name": "skmultiagents",
+          "owner": "microsoft",
+          "url": "https://github.com/microsoft/skmultiagents",
+          "stars": 10,
+          "description": "Multi-agent demo with Semantic Kernel and Azure AI Foundry",
+          "kb_alignment": "architecture-patterns",
+          "recommendation": "fork-and-enhance",
+          "value": "Already forked, enhance with production patterns"
+        },
+        {
+          "name": "Multi-Agent-Semantic-Kernel-Azure-Agent-Service-Python",
+          "owner": "Shailender-Youtube",
+          "url": "https://github.com/Shailender-Youtube/Multi-Agent-Semantic-Kernel-Azure-Agent-Service-Python",
+          "stars": 15,
+          "description": "Multi-agent Python app with Semantic Kernel and Azure Agent Service",
+          "kb_alignment": "architecture-patterns",
+          "recommendation": "reference",
+          "value": "Python-based multi-agent example"
+        },
+        {
+          "name": "agent-framework-journey",
+          "owner": "rajeevsingh-dev",
+          "url": "https://github.com/rajeevsingh-dev/agent-framework-journey",
+          "stars": 10,
+          "description": "Exploration of Microsoft Agent Framework with setup guides",
+          "kb_alignment": "implementation",
+          "recommendation": "reference",
+          "value": "Learning resource for agent development"
+        },
+        {
+          "name": "Multi-Agent-App-Factory",
+          "owner": "HenriSchulte-MS",
+          "url": "https://github.com/HenriSchulte-MS/Multi-Agent-App-Factory",
+          "stars": 9,
+          "description": "Multi-agent web app builder with Playwright MCP and Azure Communication Services",
+          "kb_alignment": "architecture-patterns",
+          "recommendation": "reference",
+          "value": "Human-in-the-loop pattern with phone integration"
+        }
+      ]
+    },
+    "langgraph_agents": {
+      "title": "LangGraph & Multi-Agent Systems",
+      "description": "State machines, agent orchestration, and MCP integration patterns",
+      "repositories": [
+        {
+          "name": "DeepMCPAgent",
+          "owner": "cryxnet",
+          "url": "https://github.com/cryxnet/DeepMCPAgent",
+          "stars": 633,
+          "description": "Model-agnostic LangChain/LangGraph agents powered by MCP tools",
+          "kb_alignment": "architecture-patterns",
+          "recommendation": "reference",
+          "value": "MCP integration with LangGraph"
+        },
+        {
+          "name": "langgraph-bigtool",
+          "owner": "langchain-ai",
+          "url": "https://github.com/langchain-ai/langgraph-bigtool",
+          "stars": 452,
+          "description": "Build LangGraph agents with large numbers of tools",
+          "kb_alignment": "architecture-patterns",
+          "recommendation": "reference",
+          "value": "Official LangChain pattern for tool-heavy agents"
+        },
+        {
+          "name": "ai-agent-chatbot-with-fastapi",
+          "owner": "AIwithhassan",
+          "url": "https://github.com/AIwithhassan/ai-agent-chatbot-with-fastapi",
+          "stars": 35,
+          "description": "LangGraph + FastAPI + Streamlit chatbot tutorial",
+          "kb_alignment": "implementation",
+          "recommendation": "reference",
+          "value": "Production deployment pattern with FastAPI"
+        },
+        {
+          "name": "langgraph-mcp",
+          "owner": "prsdm",
+          "url": "https://github.com/prsdm/langgraph-mcp",
+          "stars": 26,
+          "description": "LangGraph agent template with MCP",
+          "kb_alignment": "evolution",
+          "recommendation": "reference",
+          "value": "Template for MCP integration"
+        },
+        {
+          "name": "lg-agents",
+          "owner": "apsquared",
+          "url": "https://github.com/apsquared/lg-agents",
+          "stars": 22,
+          "description": "LangGraph agent samples",
+          "kb_alignment": "implementation",
+          "recommendation": "reference",
+          "value": "Sample collection"
+        },
+        {
+          "name": "MCP-MultiServer-Interoperable-Agent2Agent-LangGraph-AI-System",
+          "owner": "junfanz1",
+          "url": "https://github.com/junfanz1/MCP-MultiServer-Interoperable-Agent2Agent-LangGraph-AI-System",
+          "stars": 21,
+          "description": "Decoupled real-time agent architecture with MCP servers",
+          "kb_alignment": "architecture-patterns",
+          "recommendation": "reference",
+          "value": "Distributed agent architecture"
+        },
+        {
+          "name": "langgraph-voice-call-agent",
+          "owner": "ahmad2b",
+          "url": "https://github.com/ahmad2b/langgraph-voice-call-agent",
+          "stars": 18,
+          "description": "Real-time voice AI agent with LangGraph and LiveKit",
+          "kb_alignment": "evolution",
+          "recommendation": "reference",
+          "value": "Voice interface pattern"
+        },
+        {
+          "name": "Fastapi-meets-Langgraph",
+          "owner": "naghost-dev",
+          "url": "https://github.com/naghost-dev/Fastapi-meets-Langgraph",
+          "stars": 15,
+          "description": "LangGraph agents deployed through FastAPI",
+          "kb_alignment": "implementation",
+          "recommendation": "reference",
+          "value": "REST API deployment pattern"
+        },
+        {
+          "name": "langgraph-think-tool",
+          "owner": "emanueleielo",
+          "url": "https://github.com/emanueleielo/langgraph-think-tool",
+          "stars": 10,
+          "description": "Think tool for structured reasoning in LangGraph agents",
+          "kb_alignment": "challenges",
+          "recommendation": "reference",
+          "value": "Reasoning enhancement pattern"
+        },
+        {
+          "name": "BentoLangGraph",
+          "owner": "bentoml",
+          "url": "https://github.com/bentoml/BentoLangGraph",
+          "stars": 9,
+          "description": "Serving LangGraph agents as REST API with BentoML",
+          "kb_alignment": "architecture-patterns",
+          "recommendation": "reference",
+          "value": "Model serving pattern"
+        }
+      ]
+    },
+    "autogen_ecosystem": {
+      "title": "AutoGen Multi-Agent Framework",
+      "description": "Microsoft AutoGen patterns for multi-agent collaboration",
+      "repositories": [
+        {
+          "name": "autogen-multi-agent-workflow",
+          "owner": "gswithjeff",
+          "url": "https://github.com/gswithjeff/autogen-multi-agent-workflow",
+          "stars": 16,
+          "description": "YouTube Shorts creation with AutoGen 0.4 agents",
+          "kb_alignment": "use-cases",
+          "recommendation": "reference",
+          "value": "Creative content generation use case"
+        },
+        {
+          "name": "ai-autogen-multi-agent",
+          "owner": "botextractai",
+          "url": "https://github.com/botextractai/ai-autogen-multi-agent",
+          "stars": 11,
+          "description": "Blog post writing using AutoGen with reflection",
+          "kb_alignment": "use-cases",
+          "recommendation": "reference",
+          "value": "Content creation pattern"
+        },
+        {
+          "name": "Multi-Agent-autogen-Report-Gen",
+          "owner": "MSFT-Innovation-Hub-India",
+          "url": "https://github.com/MSFT-Innovation-Hub-India/Multi-Agent-autogen-Report-Gen",
+          "stars": 11,
+          "description": "Data analysis and report generation with AutoGen",
+          "kb_alignment": "use-cases",
+          "recommendation": "reference",
+          "value": "Official Microsoft Innovation Hub example"
+        },
+        {
+          "name": "autogen-multiagent-workshop",
+          "owner": "nohanaga",
+          "url": "https://github.com/nohanaga/autogen-multiagent-workshop",
+          "stars": 10,
+          "description": "AutoGen Multi-Agent Workshop materials",
+          "kb_alignment": "implementation",
+          "recommendation": "reference",
+          "value": "Workshop/training resource"
+        },
+        {
+          "name": "Email-Assistant-Agents",
+          "owner": "Altafalam3",
+          "url": "https://github.com/Altafalam3/Email-Assistant-Agents",
+          "stars": 9,
+          "description": "Email management automation with AutoGen",
+          "kb_alignment": "use-cases",
+          "recommendation": "reference",
+          "value": "Email automation use case"
+        },
+        {
+          "name": "autogen_multi_agent_marketing_team",
+          "owner": "MoRaouf",
+          "url": "https://github.com/MoRaouf/autogen_multi_agent_marketing_team",
+          "stars": 6,
+          "description": "Autonomous AI marketing team with AutoGen",
+          "kb_alignment": "use-cases",
+          "recommendation": "reference",
+          "value": "Marketing automation use case"
+        }
+      ]
+    },
+    "azure_ai_search_rag": {
+      "title": "Azure AI Search & RAG Patterns",
+      "description": "Hybrid search, semantic ranking, and production RAG implementations",
+      "repositories": [
+        {
+          "name": "langchain-azure-ai-search-rag",
+          "owner": "rishabkumar7",
+          "url": "https://github.com/rishabkumar7/langchain-azure-ai-search-rag",
+          "stars": 14,
+          "description": "LangChain + Azure AI Search RAG implementation",
+          "kb_alignment": "architecture-patterns",
+          "recommendation": "reference",
+          "value": "LangChain integration pattern"
+        },
+        {
+          "name": "Azure-openai-Realtime-RAG-twilio-phone",
+          "owner": "Shailender-Youtube",
+          "url": "https://github.com/Shailender-Youtube/Azure-openai-Realtime-RAG-twilio-phone",
+          "stars": 8,
+          "description": "Realtime RAG with Azure AI Search and Twilio phone integration",
+          "kb_alignment": "evolution",
+          "recommendation": "reference",
+          "value": "Voice + RAG integration"
+        }
+      ]
+    }
+  },
+  "stats": {
+    "total_external_repos": 60,
+    "by_recommendation": {
+      "reference": 50,
+      "fork-and-enhance": 10
+    },
+    "by_stars": {
+      "500+": 1,
+      "100-499": 6,
+      "50-99": 4,
+      "10-49": 25,
+      "0-9": 24
+    },
+    "by_kb_alignment": {
+      "architecture-patterns": 20,
+      "use-cases": 12,
+      "implementation": 13,
+      "evolution": 8,
+      "challenges": 2,
+      "adrs": 0,
+      "metrics": 0
+    },
+    "official_microsoft": 10,
+    "community_maintained": 50
+  }
+}

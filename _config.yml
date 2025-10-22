@@ -1,0 +1,27 @@
+# GitHub Pages Configuration
+theme: jekyll-theme-minimal
+title: "Copilot Architect Knowledge Base"
+description: "Production-Ready AI Systems • Enterprise Architecture • Azure & Beyond"
+show_downloads: false
+google_analytics: # Add your GA tracking ID here
+
+# Metadata
+lang: en-US
+author: Ram Maree
+baseurl: "/copilot-architect-kb"
+url: "https://maree217.github.io"
+
+# Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# Exclude from processing
+exclude:
+  - README.md
+  - LICENSE
+  - .gitignore
+  - docs/
+  - mappings/
+  - updates/

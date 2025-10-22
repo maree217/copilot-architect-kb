@@ -1,0 +1,463 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-10-22",
+  "kb_sections": {
+    "architecture-patterns": {
+      "title": "Core Architecture Patterns",
+      "description": "Foundational patterns for building enterprise-grade Copilot solutions",
+      "repositories": {
+        "existing": [
+          {
+            "name": "three-layer-ai-framework",
+            "url": "https://github.com/maree217/three-layer-ai-framework",
+            "description": "Production-ready enterprise AI framework with three-layer architecture",
+            "status": "production",
+            "stars": 1,
+            "topics": ["Microsoft Copilot Stack", "Production Deployment"],
+            "tech_stack": ["Python", "Azure AI"]
+          },
+          {
+            "name": "azure-ai-foundry-showcase",
+            "url": "https://github.com/maree217/azure-ai-foundry-showcase",
+            "description": "Azure AI Foundry implementations for strategic forecasting",
+            "status": "production",
+            "stars": 0,
+            "topics": ["Microsoft Copilot Stack", "Azure AI Foundry"],
+            "tech_stack": ["Python", "Azure AI Foundry"]
+          },
+          {
+            "name": "enterprise-agent-toolkit",
+            "url": "https://github.com/maree217/enterprise-agent-toolkit",
+            "description": "Professional AI consultancy toolkit with case studies and templates",
+            "status": "production",
+            "stars": 0,
+            "topics": ["Multi-Agent Systems"],
+            "tech_stack": ["TypeScript", "Azure"]
+          },
+          {
+            "name": "skmultiagents",
+            "url": "https://github.com/maree217/skmultiagents",
+            "description": "Multi-Agents Demo using Semantic Kernel and Azure AI Foundry Agents Service",
+            "status": "fork-to-enhance",
+            "stars": 0,
+            "topics": ["Multi-Agent Systems", "Semantic Kernel"],
+            "tech_stack": ["Python", "Semantic Kernel"]
+          }
+        ],
+        "planned": [
+          {
+            "name": "semantic-kernel-production-patterns",
+            "description": "Production patterns for Semantic Kernel (setup, plugins, memory, orchestration, deployment, testing)",
+            "priority": "P0",
+            "status": "planned",
+            "topics": ["Microsoft Copilot Stack", "Semantic Kernel"],
+            "tech_stack": ["Python", "C#", "Semantic Kernel", "Azure OpenAI"]
+          },
+          {
+            "name": "rag-architecture-blueprints",
+            "description": "Advanced RAG patterns (hybrid search, reranking, query expansion, guardrails)",
+            "priority": "P0",
+            "status": "planned",
+            "topics": ["RAG Architectures"],
+            "tech_stack": ["Python", "Azure AI Search", "Pinecone", "Redis"]
+          },
+          {
+            "name": "multi-agent-orchestration-cookbook",
+            "description": "AutoGen + LangGraph + Azure Agent Service patterns",
+            "priority": "P2",
+            "status": "planned",
+            "topics": ["Multi-Agent Systems"],
+            "tech_stack": ["Python", "AutoGen", "LangGraph"]
+          },
+          {
+            "name": "azure-copilot-production-stack",
+            "description": "Full production deployment (API Gateway, caching, circuit breaker, observability)",
+            "priority": "P2",
+            "status": "planned",
+            "topics": ["Production Deployment"],
+            "tech_stack": ["Azure", "Bicep", "Terraform", "Redis"]
+          }
+        ]
+      }
+    },
+    "use-cases": {
+      "title": "Real-World Use Cases",
+      "description": "Detailed case studies from production deployments across industries",
+      "repositories": {
+        "existing": [
+          {
+            "name": "enterprise-ai-analytics-platform",
+            "url": "https://github.com/maree217/enterprise-ai-analytics-platform",
+            "description": "Production-ready Enterprise AI Analytics Platform with Three-Layer Architecture",
+            "status": "production",
+            "stars": 1,
+            "case_study": "Financial Services / Cross-Industry",
+            "tech_stack": ["Python", "Azure AI"]
+          },
+          {
+            "name": "agentic-data-platform",
+            "url": "https://github.com/maree217/agentic-data-platform",
+            "description": "Autonomous, self-healing data platform with AI agents",
+            "status": "production",
+            "stars": 0,
+            "case_study": "Multi-step Automation",
+            "tech_stack": ["HTML", "Python"]
+          },
+          {
+            "name": "strategic-forecasting-ai",
+            "url": "https://github.com/maree217/strategic-forecasting-ai",
+            "description": "AI-powered strategic decision support with scenario planning",
+            "status": "production",
+            "stars": 0,
+            "case_study": "Strategic Intelligence",
+            "tech_stack": ["Python"]
+          },
+          {
+            "name": "ram-digital-twin",
+            "url": "https://github.com/maree217/ram-digital-twin",
+            "description": "AI-Powered Digital Twin with RAG, vector search, and lead intelligence",
+            "status": "production",
+            "stars": 0,
+            "case_study": "Consultancy / Knowledge Management",
+            "tech_stack": ["Python"]
+          }
+        ],
+        "planned": [
+          {
+            "name": "compliance-qa-production-system",
+            "description": "Financial services compliance Q&A with PII detection, faithfulness scoring, citations",
+            "priority": "P1",
+            "status": "planned",
+            "case_study": "Financial Services - Enterprise Knowledge Management",
+            "tech_stack": ["Python", "Azure AI Content Safety", "Azure AI Search"]
+          },
+          {
+            "name": "housing-repair-automation-agents",
+            "description": "Multi-agent repair request workflow for housing associations",
+            "priority": "P2",
+            "status": "planned",
+            "case_study": "Housing Association - Multi-Step Process Automation",
+            "tech_stack": ["Python", "Power Automate", "AutoGen"]
+          }
+        ]
+      }
+    },
+    "challenges": {
+      "title": "Technical Challenges & Solutions",
+      "description": "Common production challenges with specific tools and battle-tested solutions",
+      "repositories": {
+        "existing": [
+          {
+            "name": "universal-conversation-coach",
+            "url": "https://github.com/maree217/universal-conversation-coach",
+            "description": "Real-time conversation coaching with Core Audio Taps, Whisper, GPT-4",
+            "status": "production",
+            "stars": 0,
+            "challenge": "Performance & Real-time Processing",
+            "tech_stack": ["JavaScript", "OpenAI"]
+          },
+          {
+            "name": "stealth-sales-coach",
+            "url": "https://github.com/maree217/stealth-sales-coach",
+            "description": "Local AI-powered sales coaching with real-time insights",
+            "status": "production",
+            "stars": 0,
+            "challenge": "Local AI Processing",
+            "tech_stack": ["Python"]
+          }
+        ],
+        "planned": [
+          {
+            "name": "llm-evaluation-production-toolkit",
+            "description": "RAGAS, faithfulness metrics, LLM-as-judge, regression testing, hallucination detection",
+            "priority": "P0",
+            "status": "planned",
+            "challenge": "Evaluation & Quality",
+            "tech_stack": ["Python", "RAGAS", "PromptBench"]
+          },
+          {
+            "name": "semantic-cache-production-patterns",
+            "description": "Redis semantic caching for 40-60% cost savings and latency optimization",
+            "priority": "P1",
+            "status": "planned",
+            "challenge": "Performance & Scale",
+            "tech_stack": ["Python", "Redis", "Azure Cache for Redis"]
+          },
+          {
+            "name": "ai-security-guardrails-framework",
+            "description": "PII detection, prompt injection prevention, RBAC patterns",
+            "priority": "P1",
+            "status": "planned",
+            "challenge": "Security & Governance",
+            "tech_stack": ["Python", "Azure AI Content Safety", "Microsoft Purview"]
+          },
+          {
+            "name": "persistent-memory-patterns",
+            "description": "Solutions to persistent memory problem - Redis state, Cosmos DB, conversation history",
+            "priority": "P2",
+            "status": "planned",
+            "challenge": "Memory & State Management",
+            "tech_stack": ["Python", "Redis", "Cosmos DB", "Semantic Kernel"]
+          }
+        ]
+      }
+    },
+    "adrs": {
+      "title": "Architectural Decision Records",
+      "description": "Critical architectural decisions with criteria, trade-offs, and recommendations",
+      "repositories": {
+        "existing": [],
+        "planned": [
+          {
+            "name": "ai-architecture-decision-framework",
+            "description": "Interactive decision trees, trade-off calculators, cost models for AI architecture",
+            "priority": "P1",
+            "status": "planned",
+            "adr_topics": ["All ADRs", "RAG vs Fine-Tuning", "Agent Complexity"],
+            "tech_stack": ["Python", "Streamlit", "Jupyter"]
+          },
+          {
+            "name": "rag-vs-finetuning-production-comparison",
+            "description": "Side-by-side implementations of same use case with both approaches",
+            "priority": "P3",
+            "status": "planned",
+            "adr_topics": ["RAG vs Fine-Tuning"],
+            "tech_stack": ["Python", "Azure OpenAI", "Azure ML"]
+          }
+        ]
+      }
+    },
+    "evolution": {
+      "title": "Evolution & Emerging Patterns",
+      "description": "Cutting-edge patterns including GraphRAG, Small LLMs, Agentic RAG, MCP",
+      "repositories": {
+        "existing": [
+          {
+            "name": "graphiti",
+            "url": "https://github.com/maree217/graphiti",
+            "description": "Build Real-Time Knowledge Graphs for AI Agents",
+            "status": "fork",
+            "stars": 0,
+            "pattern": "GraphRAG",
+            "tech_stack": ["Python"]
+          },
+          {
+            "name": "web-eval-agent",
+            "url": "https://github.com/maree217/web-eval-agent",
+            "description": "MCP server that autonomously evaluates web applications",
+            "status": "fork",
+            "stars": 0,
+            "pattern": "MCP Integration",
+            "tech_stack": ["Python"]
+          },
+          {
+            "name": "mcp-use",
+            "url": "https://github.com/maree217/mcp-use",
+            "description": "Easiest way to interact with MCP servers with custom agents",
+            "status": "fork",
+            "stars": 0,
+            "pattern": "MCP Integration",
+            "tech_stack": ["Python"]
+          }
+        ],
+        "planned": [
+          {
+            "name": "graphrag-production-patterns",
+            "description": "Knowledge graph + RAG integration patterns (Neo4j + Azure AI Search)",
+            "priority": "P3",
+            "status": "planned",
+            "pattern": "GraphRAG",
+            "tech_stack": ["Python", "Neo4j", "Azure Cosmos DB Graph"]
+          },
+          {
+            "name": "small-llm-local-deployment-guide",
+            "description": "Llama 3.1 8B, Phi-3, fine-tuning for privacy-focused local deployment",
+            "priority": "P3",
+            "status": "planned",
+            "pattern": "Small Language Models",
+            "tech_stack": ["Python", "Ollama", "LM Studio", "Azure ML"]
+          },
+          {
+            "name": "mcp-copilot-integration-patterns",
+            "description": "Semantic Kernel + MCP, AutoGen + MCP integration patterns",
+            "priority": "P3",
+            "status": "planned",
+            "pattern": "MCP Integration",
+            "tech_stack": ["Python", "MCP SDK", "Semantic Kernel", "FastAPI"]
+          }
+        ]
+      }
+    },
+    "implementation": {
+      "title": "Implementation Guides",
+      "description": "Step-by-step implementation guides with production-ready code examples",
+      "repositories": {
+        "existing": [
+          {
+            "name": "harringey-voicechatbot-AZURE",
+            "url": "https://github.com/maree217/harringey-voicechatbot-AZURE",
+            "description": "VoiceRAG pattern with Azure AI Search and Azure OpenAI realtime preview",
+            "status": "fork",
+            "stars": 0,
+            "guide": "VoiceRAG Implementation",
+            "tech_stack": ["Python", "Azure"]
+          },
+          {
+            "name": "genai-stack",
+            "url": "https://github.com/maree217/genai-stack",
+            "description": "Langchain + Docker + Neo4j + Ollama stack",
+            "status": "fork",
+            "stars": 0,
+            "guide": "Full Stack Setup",
+            "tech_stack": ["Python", "Docker"]
+          }
+        ],
+        "planned": [
+          {
+            "name": "kb-implementation-examples",
+            "description": "Working implementations of every code example in the KB (50+ examples)",
+            "priority": "P0",
+            "status": "planned",
+            "guide": "All KB Implementation Guides",
+            "tech_stack": ["Python", "Azure SDK", "Jupyter"]
+          },
+          {
+            "name": "prompt-flow-production-templates",
+            "description": "Production-ready Prompt Flow templates (RAG, agent, evaluation flows)",
+            "priority": "P3",
+            "status": "planned",
+            "guide": "Prompt Flow Deployment",
+            "tech_stack": ["Python", "Azure AI Studio", "Azure ML"]
+          }
+        ]
+      }
+    },
+    "metrics": {
+      "title": "Metrics & Measurement Framework",
+      "description": "Observable systems with quality, performance, cost, and business metrics",
+      "repositories": {
+        "existing": [],
+        "planned": [
+          {
+            "name": "copilot-metrics-framework",
+            "description": "Observable dashboards, metric collection, alerting (Application Insights, Grafana)",
+            "priority": "P2",
+            "status": "planned",
+            "metrics": ["Quality", "Performance", "Cost", "Business"],
+            "tech_stack": ["Python", "Azure Monitor", "Application Insights", "Prometheus", "Grafana"]
+          },
+          {
+            "name": "llm-cost-calculator",
+            "description": "Interactive cost calculator for Azure OpenAI (RAG, agent, caching ROI models)",
+            "priority": "P4",
+            "status": "planned",
+            "metrics": ["Cost Analysis"],
+            "tech_stack": ["Python", "Streamlit", "Azure Cost Management API"]
+          }
+        ]
+      }
+    }
+  },
+  "thought_leadership": {
+    "title": "Thought Leadership Articles",
+    "description": "LinkedIn articles with accompanying code implementations",
+    "repository": {
+      "name": "microsoft-ai-reality-check",
+      "status": "planned",
+      "priority": "P0",
+      "articles": [
+        {
+          "number": 1,
+          "title": "The One Unsolved Problem Blocking AI Agents: Memory",
+          "kb_sections": ["challenges", "evolution"],
+          "topics": ["Persistent Memory", "State Management"]
+        },
+        {
+          "number": 2,
+          "title": "Microsoft, AWS, ServiceNow: Why They're All Selling You the Same Thing",
+          "kb_sections": ["evolution"],
+          "topics": ["Platform Commoditization", "Vendor Lock-in"]
+        },
+        {
+          "number": 3,
+          "title": "Why Your AI Still Can't Touch Customer Data",
+          "kb_sections": ["challenges", "use-cases"],
+          "topics": ["Security", "PII Leakage", "Compliance"]
+        },
+        {
+          "number": 4,
+          "title": "AI Projects Fail Because of Politics, Not Technology",
+          "kb_sections": ["use-cases"],
+          "topics": ["Organizational Politics", "Change Management"]
+        },
+        {
+          "number": 5,
+          "title": "Stop Defaulting to RAG: An AI Architecture Decision Framework",
+          "kb_sections": ["adrs"],
+          "topics": ["RAG vs Fine-Tuning", "Architecture Decisions"]
+        },
+        {
+          "number": 6,
+          "title": "Why I Still Don't Know How to Prompt",
+          "kb_sections": ["challenges"],
+          "topics": ["Prompt Engineering", "Intellectual Honesty"]
+        }
+      ]
+    }
+  },
+  "education": {
+    "title": "BA GenAI Transformation Course",
+    "description": "5-week program for business analysts and project managers",
+    "repository": {
+      "name": "ba-genai-transformation-course",
+      "url": "https://github.com/maree217/transformed",
+      "current_url": "http://65.109.4.220/ba-course/",
+      "status": "migrate-to-github",
+      "priority": "P2",
+      "weeks": [
+        {
+          "week": 1,
+          "title": "Strategic Discovery",
+          "kb_sections": ["use-cases", "adrs"]
+        },
+        {
+          "week": 2,
+          "title": "Workflow Foundations",
+          "kb_sections": ["architecture-patterns"]
+        },
+        {
+          "week": 3,
+          "title": "Rapid Prototyping",
+          "kb_sections": ["implementation"]
+        },
+        {
+          "week": 4,
+          "title": "Delivery Pipelines",
+          "kb_sections": ["architecture-patterns"]
+        },
+        {
+          "week": 5,
+          "title": "Agentic Operations",
+          "kb_sections": ["architecture-patterns"]
+        }
+      ]
+    }
+  },
+  "stats": {
+    "total_repositories": 48,
+    "existing_repos": 16,
+    "planned_repos": 20,
+    "thought_leadership_repos": 1,
+    "education_repos": 1,
+    "forks_to_enhance": 5,
+    "external_references": 60,
+    "kb_sections": 7,
+    "priority_distribution": {
+      "P0": 5,
+      "P1": 4,
+      "P2": 5,
+      "P3": 4,
+      "P4": 2
+    }
+  }
+}
