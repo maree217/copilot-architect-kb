@@ -196,9 +196,15 @@
         /* Card Grid */
         .card-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-template-columns: repeat(2, 1fr);
             gap: 1.5rem;
             margin-top: 2rem;
+        }
+
+        @media (max-width: 900px) {
+            .card-grid {
+                grid-template-columns: 1fr;
+            }
         }
 
         .card {
@@ -2059,31 +2065,7 @@ gantt
                 <!-- Timeline Visualization -->
                 <h3 style="margin-top: 2rem; margin-bottom: 1rem; padding-left: 2rem;">Architecture Evolution Timeline (2022-2025)</h3>
                 <div class="diagram-container">
-                    <div class="mermaid">
-timeline
-    title AI Copilot Architecture Evolution
-    section 2022 - Early Days
-        GPT-3 Released : Prompt Engineering Era
-        Simple Completions : API calls with templates
-        Monolithic Apps : Single-purpose bots
-    section 2023 - Foundation
-        ChatGPT Launch : Conversational paradigm shift
-        RAG Emergence : Vector databases mainstream
-        LangChain/LlamaIndex : Orchestration frameworks
-        Azure OpenAI GA : Enterprise adoption begins
-    section 2024 - Production
-        GPT-4 Turbo : 128k context window
-        Agentic RAG : Self-correcting retrieval
-        Multi-Agent Systems : AutoGen + LangGraph
-        Function Calling : Tool use standardized
-        Semantic Caching : Cost optimization critical
-    section 2025 - Maturity
-        GPT-4o Launch : Multimodal + faster
-        GraphRAG : Knowledge graphs + RAG
-        Small Language Models : Specialized local models
-        Prompt Optimization : DSPy automation
-        Production Ops : Observability + evals
-                    </div>
+                    <img src="assets/diagrams/05-architecture-evolution-timeline.png" alt="AI Copilot Architecture Evolution Timeline 2022-2025" style="width: 100%; max-width: 1200px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
                 </div>
 
                 <!-- Era Breakdown -->
