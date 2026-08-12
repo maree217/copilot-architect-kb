@@ -7,6 +7,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.1.0] - 2026-08-12
+
+### Added
+- **Platform Landscape Update (Aug 2026)** — `updates/2026-08-platform-landscape.md`:
+  Microsoft Foundry rename, the IQ grounding layer (Work/Fabric/Foundry IQ), Copilot
+  Cowork GA, Agent 365 + Entra Agent ID, Copilot Credits, agent mode GA, RSS retirement,
+  verified Aug 2026 model/pricing table (GPT-5.6 Sol/Terra/Luna, Claude Sonnet 5/Opus 5/
+  Fable 5), the APIM AI-gateway pattern, current vs retired Microsoft accelerators, and
+  five deployment archetypes with adoption data.
+
+### Changed
+- README refreshed to v1.1.0 with pointer to the August 2026 update; Copilot Stack
+  terminology updated (Foundry, Agent Framework).
+
+---
+
 ## [1.0.0] - 2025-10-22
 
 ### Added

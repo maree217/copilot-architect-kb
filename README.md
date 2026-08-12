@@ -1,11 +1,13 @@
 # Copilot Architect Technical Knowledge Base
 
-![Version](https://img.shields.io/badge/version-1.0.0-0078D4)
+![Version](https://img.shields.io/badge/version-1.1.0-0078D4)
 ![Status](https://img.shields.io/badge/status-Production-10B981)
 ![Repos](https://img.shields.io/badge/repos-48_integrated-7C3AED)
-![Updated](https://img.shields.io/badge/updated-2025--10--22-F59E0B)
+![Updated](https://img.shields.io/badge/updated-2026--08--12-F59E0B)
 
 **📚 [View Knowledge Base](https://maree217.github.io/copilot-architect-kb)** | **📊 [Repository Index](./mappings/repo-index.json)** | **🔗 [External References](./mappings/external-references.json)**
+
+> **🆕 August 2026:** the platform moved — Foundry rename, the IQ grounding layer, Copilot Cowork, Agent 365, GPT-5.6/Claude 5 pricing. Read the [Platform Landscape Update](./updates/2026-08-platform-landscape.md).
 
 ---
 
@@ -31,7 +33,7 @@ The KB contains **7 major sections** with corresponding implementation repositor
 Foundational patterns for enterprise Copilot solutions
 
 **Topics:**
-- Microsoft Copilot Stack (Azure OpenAI, Copilot Studio, Semantic Kernel)
+- Microsoft Copilot Stack (Microsoft Foundry, Copilot Studio, Agent Framework — see Aug 2026 update)
 - RAG Architectures (Vector DBs, Hybrid search, GraphRAG)
 - Multi-Agent Systems (AutoGen, LangGraph, Agent orchestration)
 - Production Deployment (API Gateway, Caching, Observability)
