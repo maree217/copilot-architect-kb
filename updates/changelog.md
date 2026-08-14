@@ -7,6 +7,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [2.0.0] - 2026-08-14
+
+### Changed
+- Front page replaced by the client-facing architect's briefing (light editorial
+  theme, five-scenario model, adoption reality-check, AI-generated illustrations).
+- README rewritten as a concise front door.
+
+### Removed
+- Internal planning artifacts removed from the public repo (roadmap, repo planning
+  index, getting-started scaffolding, deploy scripts).
+
+### Added
+- Previous technical KB preserved unchanged as `reference.html`.
+
+---
+
 ## [1.1.0] - 2026-08-12
 
 ### Added
