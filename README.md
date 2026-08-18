@@ -1,16 +1,17 @@
 # Copilot Architect — briefing & technical reference
 
-![Version](https://img.shields.io/badge/version-2.0.0-0078D4)
+![Version](https://img.shields.io/badge/version-2.1.0-0078D4)
 ![Status](https://img.shields.io/badge/status-Production-10B981)
-![Updated](https://img.shields.io/badge/updated-2026--08--14-F59E0B)
+![Updated](https://img.shields.io/badge/updated-2026--08--18-F59E0B)
 
-**The Briefing** (index.html / the GitHub Pages front page): an executive-readable map of the Microsoft Copilot & AI landscape — the stack, who picks the model where, five real deployment configurations with costs, and independent adoption data. **The Architect's Reference** (reference.html): the technical layer behind it — architecture patterns, ADRs, implementation guides, metrics frameworks. **Updates** (updates/): dated platform-landscape deltas, verified against primary sources; start with the August 2026 update.
+**The Briefing** (index.html / the GitHub Pages front page): an executive-readable map of the Microsoft Copilot & AI landscape — the stack, who picks the model where, five real deployment configurations with costs, and independent adoption data. **The Architect's Reference** (reference.html): the technical layer behind it — architecture patterns, ADRs, implementation guides, metrics frameworks. **Updates** (updates/): dated platform-landscape deltas and demand-side hiring signals, verified against primary sources; start with the August 2026 update.
 
 ## Links
 
 - Live site: [maree217.github.io/copilot-architect-kb](https://maree217.github.io/copilot-architect-kb)
 - Architect's Reference: [maree217.github.io/copilot-architect-kb/reference.html](https://maree217.github.io/copilot-architect-kb/reference.html)
 - [August 2026 platform update](./updates/2026-08-platform-landscape.md)
+- [Hiring signals — August 2026](./updates/2026-08-hiring-signals.md) — demand-side read: what organizations staff for
 - Curated external repos: [mappings/external-references.json](./mappings/external-references.json)
 
 ## About

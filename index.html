@@ -484,6 +484,34 @@ table.compare tbody tr:hover td, table.compare tbody tr:hover th{ background: #f
 .stat-source{ font-size:11px; color: var(--ink-muted); }
 
 /* ============================================================
+   G2 — DEMAND SIGNAL (hiring-derived magnitude bars)
+   ============================================================ */
+.demand-signal{
+  margin-top: 26px; background: var(--surface); border:1px solid var(--border);
+  border-radius: var(--radius); box-shadow: var(--shadow-card); padding: 22px 24px;
+}
+.demand-head h3{ font-family: var(--font-display); font-size:20px; margin:0 0 6px 0; color: var(--ink); }
+.demand-sub{ font-size:13px; color: var(--ink-2); margin:0 0 18px 0; max-width: 70ch; }
+.demand-bars{ display:flex; flex-direction:column; gap:7px; max-width: 720px; }
+.demand-row{ display:grid; grid-template-columns: 132px 1fr 46px; align-items:center; gap:12px; }
+.demand-name{ font-size:12.5px; color: var(--ink-2); text-align:right; }
+.demand-name em{ color: var(--ink-muted); font-style:normal; }
+.demand-bar{ background: var(--surface-alt); border-radius:3px; height:15px; overflow:hidden; }
+.demand-bar i{ display:block; height:100%; background: var(--seq-150); border-radius:3px; }
+.demand-row.is-key .demand-name{ color: var(--ink); font-weight:600; }
+.demand-row.is-key .demand-bar i{ background: var(--seq-450); }
+.demand-val{ font-size:12.5px; color: var(--ink-2); text-align:right; }
+.demand-row.is-key .demand-val{ color: var(--ink); font-weight:600; }
+.demand-note{ font-size:13px; color: var(--ink-2); margin:18px 0 0 0; max-width: 78ch; }
+.demand-note b{ color: var(--ink); }
+.demand-caveat{
+  font-size:12px; color: var(--ink-2); margin:14px 0 0 0; max-width:78ch;
+  border-left:2px solid var(--iq-border); background: var(--iq-bg);
+  padding:10px 14px; border-radius:0 6px 6px 0;
+}
+.demand-caveat b{ color: var(--iq-ink); }
+
+/* ============================================================
    footer
    ============================================================ */
 footer{ padding: 40px 0 60px 0; }
@@ -497,6 +525,8 @@ footer .foot-inner{
   .rule-strip{ flex-direction:column; }
   .rule-cell + .rule-cell{ border-left:none; border-top:1px solid var(--border); }
   .decision-q{ border-right:none; border-bottom:1px dashed var(--gridline); padding-right:0; margin-right:0; padding-bottom:14px; margin-bottom:14px; width:100%; }
+  .demand-row{ grid-template-columns: 96px 1fr 44px; gap:8px; }
+  .demand-name{ font-size:11.5px; }
 }
 
 @media print{
@@ -1164,6 +1194,25 @@ footer .foot-inner{
     <div class="tuning-note" style="margin-top:22px;">
       <b>The pattern behind the numbers</b> — organizations stall when asked to commit before evidence. The deployments that survive start scoped, instrumented and evidence-first: one governed agent with real telemetry beats a thousand uninstrumented seats.
     </div>
+
+    <div class="demand-signal">
+      <div class="demand-head">
+        <h3>The demand signal <span class="indep-flag">independent</span></h3>
+        <p class="demand-sub">What organizations are <b>staffing for</b> — a harder signal than adoption claims, because a tool written into a job requisition already has budget and a hiring manager behind it. Tools named in ~7,000 open technology roles, recorded 18&nbsp;Aug&nbsp;2026.</p>
+      </div>
+      <div class="demand-bars">
+        <div class="demand-row"><span class="demand-name">LLM <em>(generic)</em></span><span class="demand-bar"><i style="width:100%"></i></span><span class="demand-val mono-num">867</span></div>
+        <div class="demand-row"><span class="demand-name">SQL</span><span class="demand-bar"><i style="width:75%"></i></span><span class="demand-val mono-num">652</span></div>
+        <div class="demand-row is-key"><span class="demand-name">Anthropic</span><span class="demand-bar"><i style="width:49%"></i></span><span class="demand-val mono-num">422</span></div>
+        <div class="demand-row is-key"><span class="demand-name">Claude</span><span class="demand-bar"><i style="width:44%"></i></span><span class="demand-val mono-num">383</span></div>
+        <div class="demand-row"><span class="demand-name">AWS</span><span class="demand-bar"><i style="width:34%"></i></span><span class="demand-val mono-num">297</span></div>
+        <div class="demand-row is-key"><span class="demand-name">Cursor</span><span class="demand-bar"><i style="width:25%"></i></span><span class="demand-val mono-num">221</span></div>
+        <div class="demand-row"><span class="demand-name">Python</span><span class="demand-bar"><i style="width:24%"></i></span><span class="demand-val mono-num">208</span></div>
+        <div class="demand-row is-key"><span class="demand-name">MCP</span><span class="demand-bar"><i style="width:20%"></i></span><span class="demand-val mono-num">177</span></div>
+      </div>
+      <p class="demand-note"><b>MCP has crossed from specification to staffing line-item</b> — 177 roles naming a protocol ratified less than two years ago puts it on par with Python and Jira. And model vendors are now named explicitly in specs rather than the generic &ldquo;LLM experience&rdquo; of 2024&ndash;25: buyers have stopped treating models as interchangeable.</p>
+      <p class="demand-caveat"><b>Read the sampling caveat.</b> This board covers US product, growth and engineering roles at Series&nbsp;A+ technology companies. It measures <b>builder-side</b> tooling demand, not <b>enterprise deployment</b> — which is why Microsoft Copilot does not rank here, and why that absence says nothing about Copilot rollouts. Those are staffed by internal IT and integrators, and advertised elsewhere. Full method, bias table and figures: <a href="https://github.com/maree217/copilot-architect-kb/blob/main/updates/2026-08-hiring-signals.md" target="_blank">Hiring Signals &mdash; August 2026</a>.</p>
+    </div>
   </div>
 </section>
 
@@ -1228,7 +1277,7 @@ footer .foot-inner{
         <p style="font-size:13.4px; color:var(--ink-2); margin-top:16px;">
           <a href="https://www.linkedin.com/in/rammaree/" target="_blank">LinkedIn</a> ·
           <a href="https://github.com/maree217" target="_blank">GitHub</a> ·
-          Technical depth: <a href="reference.html">the Architect's Reference</a> · <a href="https://github.com/maree217/copilot-architect-kb/blob/main/updates/2026-08-platform-landscape.md" target="_blank">August 2026 platform update</a>
+          Technical depth: <a href="reference.html">the Architect's Reference</a> · <a href="https://github.com/maree217/copilot-architect-kb/blob/main/updates/2026-08-platform-landscape.md" target="_blank">August 2026 platform update</a> · <a href="https://github.com/maree217/copilot-architect-kb/blob/main/updates/2026-08-hiring-signals.md" target="_blank">Hiring signals</a>
         </p>
       </div>
     </div>

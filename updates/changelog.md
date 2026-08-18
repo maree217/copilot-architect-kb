@@ -7,6 +7,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [2.1.0] - 2026-08-18
+
+### Added
+- **Hiring Signals (Aug 2026)** — `updates/2026-08-hiring-signals.md`: a demand-side
+  read of the AI stack taken from ~7,000 open technology roles on the public Lenny's
+  Jobs / TrueUp feed. Tool-mention counts (LLM 867, Anthropic 422, Claude 383,
+  Cursor 221, MCP 177), the finding that MCP has become a hiring line-item, the shift
+  from generic "LLM experience" to named model vendors, a sampling-bias table, and an
+  explicit account of why Microsoft Copilot does not rank on a builder-side board.
+  Recorded by hand — no scraping, no API. Next snapshot due November 2026.
+- **Demand-signal panel** on the briefing's adoption reality-check section, with
+  magnitude bars over the tool counts and the sampling caveat surfaced inline.
+
+### Changed
+- README front door and briefing footer link to the hiring-signals update.
+
+---
+
 ## [2.0.0] - 2026-08-14
 
 ### Changed
