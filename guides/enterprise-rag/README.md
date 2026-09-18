@@ -5,6 +5,7 @@ cloning and measuring 109 repositories rather than by reading their READMEs.
 
 **No score in this guide uses star count.** [Why, and what replaced it](./methodology.md).
 
+- [**Build guide**](./BUILD-GUIDE.md) — how to actually build one: architecture, build order, 12 failure modes, security, cost model, business archetypes, 90-day plan
 - [Failure modes](./failure-modes.md) — the catalogue, with evidence grading
 - [Repository evaluations](./repo-evaluations.md) — 88 scored repos, compared within kind
 - [Methodology](./methodology.md) — the rubric, the anti-signals, and what this cannot see
