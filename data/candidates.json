@@ -1,19 +1,3876 @@
 {
  "candidates": {
   "Azure-Samples/azure-search-openai-demo": {
+   "full_name": "Azure-Samples/azure-search-openai-demo",
    "seeds": [
-    "vendor:Azure-Samples"
-   ]
+    "curated:vendor_reference"
+   ],
+   "provenance": "curated"
   },
-  "explodinggradients/ragas": {
+  "Azure-Samples/azure-search-openai-demo-csharp": {
+   "full_name": "Azure-Samples/azure-search-openai-demo-csharp",
    "seeds": [
-    "eval"
-   ]
+    "curated:vendor_reference"
+   ],
+   "provenance": "curated"
+  },
+  "Azure-Samples/chat-with-your-data-solution-accelerator": {
+   "full_name": "Azure-Samples/chat-with-your-data-solution-accelerator",
+   "seeds": [
+    "curated:vendor_reference"
+   ],
+   "provenance": "curated"
+  },
+  "Azure-Samples/rag-postgres-openai-python": {
+   "full_name": "Azure-Samples/rag-postgres-openai-python",
+   "seeds": [
+    "curated:vendor_reference"
+   ],
+   "provenance": "curated"
+  },
+  "Azure-Samples/azure-openai-rag-workshop": {
+   "full_name": "Azure-Samples/azure-openai-rag-workshop",
+   "seeds": [
+    "curated:vendor_reference"
+   ],
+   "provenance": "curated"
+  },
+  "Azure-Samples/miyagi": {
+   "full_name": "Azure-Samples/miyagi",
+   "seeds": [
+    "curated:vendor_reference"
+   ],
+   "provenance": "curated"
+  },
+  "Azure/GPT-RAG": {
+   "full_name": "Azure/GPT-RAG",
+   "seeds": [
+    "curated:vendor_reference"
+   ],
+   "provenance": "curated"
+  },
+  "microsoft/sample-app-aoai-chatGPT": {
+   "full_name": "microsoft/sample-app-aoai-chatGPT",
+   "seeds": [
+    "curated:vendor_reference"
+   ],
+   "provenance": "curated"
+  },
+  "microsoft/PubSec-Info-Assistant": {
+   "full_name": "microsoft/PubSec-Info-Assistant",
+   "seeds": [
+    "curated:vendor_reference"
+   ],
+   "provenance": "curated"
+  },
+  "GoogleCloudPlatform/generative-ai": {
+   "full_name": "GoogleCloudPlatform/generative-ai",
+   "seeds": [
+    "curated:vendor_reference"
+   ],
+   "provenance": "curated"
+  },
+  "NVIDIA/GenerativeAIExamples": {
+   "full_name": "NVIDIA/GenerativeAIExamples",
+   "seeds": [
+    "curated:vendor_reference"
+   ],
+   "provenance": "curated"
+  },
+  "aws-samples/amazon-bedrock-workshop": {
+   "full_name": "aws-samples/amazon-bedrock-workshop",
+   "seeds": [
+    "curated:vendor_reference"
+   ],
+   "provenance": "curated"
+  },
+  "elastic/elasticsearch-labs": {
+   "full_name": "elastic/elasticsearch-labs",
+   "seeds": [
+    "curated:vendor_reference"
+   ],
+   "provenance": "curated"
+  },
+  "vespa-engine/sample-apps": {
+   "full_name": "vespa-engine/sample-apps",
+   "seeds": [
+    "curated:vendor_reference"
+   ],
+   "provenance": "curated"
+  },
+  "pinecone-io/examples": {
+   "full_name": "pinecone-io/examples",
+   "seeds": [
+    "curated:vendor_reference"
+   ],
+   "provenance": "curated"
+  },
+  "neo4j-labs/llm-graph-builder": {
+   "full_name": "neo4j-labs/llm-graph-builder",
+   "seeds": [
+    "curated:vendor_reference"
+   ],
+   "provenance": "curated"
+  },
+  "langchain-ai/langchain": {
+   "full_name": "langchain-ai/langchain",
+   "seeds": [
+    "curated:framework"
+   ],
+   "provenance": "curated"
+  },
+  "langchain-ai/langgraph": {
+   "full_name": "langchain-ai/langgraph",
+   "seeds": [
+    "curated:framework"
+   ],
+   "provenance": "curated"
+  },
+  "run-llama/llama_index": {
+   "full_name": "run-llama/llama_index",
+   "seeds": [
+    "curated:framework"
+   ],
+   "provenance": "curated"
+  },
+  "deepset-ai/haystack": {
+   "full_name": "deepset-ai/haystack",
+   "seeds": [
+    "curated:framework"
+   ],
+   "provenance": "curated"
+  },
+  "microsoft/semantic-kernel": {
+   "full_name": "microsoft/semantic-kernel",
+   "seeds": [
+    "curated:framework"
+   ],
+   "provenance": "curated"
+  },
+  "microsoft/kernel-memory": {
+   "full_name": "microsoft/kernel-memory",
+   "seeds": [
+    "curated:framework"
+   ],
+   "provenance": "curated"
+  },
+  "microsoft/graphrag": {
+   "full_name": "microsoft/graphrag",
+   "seeds": [
+    "curated:framework"
+   ],
+   "provenance": "curated"
+  },
+  "stanfordnlp/dspy": {
+   "full_name": "stanfordnlp/dspy",
+   "seeds": [
+    "curated:framework"
+   ],
+   "provenance": "curated"
+  },
+  "neuml/txtai": {
+   "full_name": "neuml/txtai",
+   "seeds": [
+    "curated:framework"
+   ],
+   "provenance": "curated"
+  },
+  "llmware-ai/llmware": {
+   "full_name": "llmware-ai/llmware",
+   "seeds": [
+    "curated:framework"
+   ],
+   "provenance": "curated"
+  },
+  "SciPhi-AI/R2R": {
+   "full_name": "SciPhi-AI/R2R",
+   "seeds": [
+    "curated:framework"
+   ],
+   "provenance": "curated"
+  },
+  "HKUDS/LightRAG": {
+   "full_name": "HKUDS/LightRAG",
+   "seeds": [
+    "curated:framework"
+   ],
+   "provenance": "curated"
+  },
+  "topoteretes/cognee": {
+   "full_name": "topoteretes/cognee",
+   "seeds": [
+    "curated:framework"
+   ],
+   "provenance": "curated"
+  },
+  "mem0ai/mem0": {
+   "full_name": "mem0ai/mem0",
+   "seeds": [
+    "curated:framework"
+   ],
+   "provenance": "curated"
+  },
+  "getzep/zep": {
+   "full_name": "getzep/zep",
+   "seeds": [
+    "curated:framework"
+   ],
+   "provenance": "curated"
   },
   "infiniflow/ragflow": {
+   "full_name": "infiniflow/ragflow",
    "seeds": [
-    "dependency"
-   ]
+    "curated:platform_product"
+   ],
+   "provenance": "curated"
+  },
+  "onyx-dot-com/onyx": {
+   "full_name": "onyx-dot-com/onyx",
+   "seeds": [
+    "curated:platform_product"
+   ],
+   "provenance": "curated"
+  },
+  "Mintplex-Labs/anything-llm": {
+   "full_name": "Mintplex-Labs/anything-llm",
+   "seeds": [
+    "curated:platform_product"
+   ],
+   "provenance": "curated"
+  },
+  "open-webui/open-webui": {
+   "full_name": "open-webui/open-webui",
+   "seeds": [
+    "curated:platform_product"
+   ],
+   "provenance": "curated"
+  },
+  "QuivrHQ/quivr": {
+   "full_name": "QuivrHQ/quivr",
+   "seeds": [
+    "curated:platform_product"
+   ],
+   "provenance": "curated"
+  },
+  "khoj-ai/khoj": {
+   "full_name": "khoj-ai/khoj",
+   "seeds": [
+    "curated:platform_product"
+   ],
+   "provenance": "curated"
+  },
+  "zylon-ai/private-gpt": {
+   "full_name": "zylon-ai/private-gpt",
+   "seeds": [
+    "curated:platform_product"
+   ],
+   "provenance": "curated"
+  },
+  "weaviate/Verba": {
+   "full_name": "weaviate/Verba",
+   "seeds": [
+    "curated:platform_product"
+   ],
+   "provenance": "curated"
+  },
+  "vanna-ai/vanna": {
+   "full_name": "vanna-ai/vanna",
+   "seeds": [
+    "curated:platform_product"
+   ],
+   "provenance": "curated"
+  },
+  "danny-avila/LibreChat": {
+   "full_name": "danny-avila/LibreChat",
+   "seeds": [
+    "curated:platform_product"
+   ],
+   "provenance": "curated"
+  },
+  "qdrant/qdrant": {
+   "full_name": "qdrant/qdrant",
+   "seeds": [
+    "curated:vector_store"
+   ],
+   "provenance": "curated"
+  },
+  "weaviate/weaviate": {
+   "full_name": "weaviate/weaviate",
+   "seeds": [
+    "curated:vector_store"
+   ],
+   "provenance": "curated"
+  },
+  "milvus-io/milvus": {
+   "full_name": "milvus-io/milvus",
+   "seeds": [
+    "curated:vector_store"
+   ],
+   "provenance": "curated"
+  },
+  "chroma-core/chroma": {
+   "full_name": "chroma-core/chroma",
+   "seeds": [
+    "curated:vector_store"
+   ],
+   "provenance": "curated"
+  },
+  "pgvector/pgvector": {
+   "full_name": "pgvector/pgvector",
+   "seeds": [
+    "curated:vector_store"
+   ],
+   "provenance": "curated"
+  },
+  "lancedb/lancedb": {
+   "full_name": "lancedb/lancedb",
+   "seeds": [
+    "curated:vector_store"
+   ],
+   "provenance": "curated"
+  },
+  "marqo-ai/marqo": {
+   "full_name": "marqo-ai/marqo",
+   "seeds": [
+    "curated:vector_store"
+   ],
+   "provenance": "curated"
+  },
+  "zilliztech/GPTCache": {
+   "full_name": "zilliztech/GPTCache",
+   "seeds": [
+    "curated:vector_store"
+   ],
+   "provenance": "curated"
+  },
+  "Unstructured-IO/unstructured": {
+   "full_name": "Unstructured-IO/unstructured",
+   "seeds": [
+    "curated:ingestion"
+   ],
+   "provenance": "curated"
+  },
+  "DS4SD/docling": {
+   "full_name": "DS4SD/docling",
+   "seeds": [
+    "curated:ingestion"
+   ],
+   "provenance": "curated"
+  },
+  "microsoft/markitdown": {
+   "full_name": "microsoft/markitdown",
+   "seeds": [
+    "curated:ingestion"
+   ],
+   "provenance": "curated"
+  },
+  "nlmatics/nlm-ingestor": {
+   "full_name": "nlmatics/nlm-ingestor",
+   "seeds": [
+    "curated:ingestion"
+   ],
+   "provenance": "curated"
+  },
+  "opendatalab/MinerU": {
+   "full_name": "opendatalab/MinerU",
+   "seeds": [
+    "curated:ingestion"
+   ],
+   "provenance": "curated"
+  },
+  "VikParuchuri/marker": {
+   "full_name": "VikParuchuri/marker",
+   "seeds": [
+    "curated:ingestion"
+   ],
+   "provenance": "curated"
+  },
+  "FlagOpen/FlagEmbedding": {
+   "full_name": "FlagOpen/FlagEmbedding",
+   "seeds": [
+    "curated:retrieval_quality"
+   ],
+   "provenance": "curated"
+  },
+  "castorini/pyserini": {
+   "full_name": "castorini/pyserini",
+   "seeds": [
+    "curated:retrieval_quality"
+   ],
+   "provenance": "curated"
+  },
+  "beir-cellar/beir": {
+   "full_name": "beir-cellar/beir",
+   "seeds": [
+    "curated:retrieval_quality"
+   ],
+   "provenance": "curated"
+  },
+  "embeddings-benchmark/mteb": {
+   "full_name": "embeddings-benchmark/mteb",
+   "seeds": [
+    "curated:retrieval_quality"
+   ],
+   "provenance": "curated"
+  },
+  "AnswerDotAI/rerankers": {
+   "full_name": "AnswerDotAI/rerankers",
+   "seeds": [
+    "curated:retrieval_quality"
+   ],
+   "provenance": "curated"
+  },
+  "explodinggradients/ragas": {
+   "full_name": "explodinggradients/ragas",
+   "seeds": [
+    "curated:eval_observability"
+   ],
+   "provenance": "curated"
+  },
+  "truera/trulens": {
+   "full_name": "truera/trulens",
+   "seeds": [
+    "curated:eval_observability"
+   ],
+   "provenance": "curated"
+  },
+  "confident-ai/deepeval": {
+   "full_name": "confident-ai/deepeval",
+   "seeds": [
+    "curated:eval_observability"
+   ],
+   "provenance": "curated"
+  },
+  "promptfoo/promptfoo": {
+   "full_name": "promptfoo/promptfoo",
+   "seeds": [
+    "curated:eval_observability"
+   ],
+   "provenance": "curated"
+  },
+  "Arize-ai/phoenix": {
+   "full_name": "Arize-ai/phoenix",
+   "seeds": [
+    "curated:eval_observability"
+   ],
+   "provenance": "curated"
+  },
+  "langfuse/langfuse": {
+   "full_name": "langfuse/langfuse",
+   "seeds": [
+    "curated:eval_observability"
+   ],
+   "provenance": "curated"
+  },
+  "comet-ml/opik": {
+   "full_name": "comet-ml/opik",
+   "seeds": [
+    "curated:eval_observability"
+   ],
+   "provenance": "curated"
+  },
+  "uptrain-ai/uptrain": {
+   "full_name": "uptrain-ai/uptrain",
+   "seeds": [
+    "curated:eval_observability"
+   ],
+   "provenance": "curated"
+  },
+  "kbeaugrand/SemanticKernel.Assistants": {
+   "full_name": "kbeaugrand/SemanticKernel.Assistants",
+   "seeds": [
+    "kb:Semantic Kernel Ecosystem"
+   ],
+   "provenance": "kb"
+  },
+  "GregorBiswanger/SemanticFlow": {
+   "full_name": "GregorBiswanger/SemanticFlow",
+   "seeds": [
+    "kb:Semantic Kernel Ecosystem"
+   ],
+   "provenance": "kb"
+  },
+  "Azure-Samples/Legacy-Modernization-Agents": {
+   "full_name": "Azure-Samples/Legacy-Modernization-Agents",
+   "seeds": [
+    "kb:Semantic Kernel Ecosystem"
+   ],
+   "provenance": "kb"
+  },
+  "adhurwit/SemanticQuestion10K": {
+   "full_name": "adhurwit/SemanticQuestion10K",
+   "seeds": [
+    "kb:Semantic Kernel Ecosystem"
+   ],
+   "provenance": "kb"
+  },
+  "GregorBiswanger/OllamaApiFacade": {
+   "full_name": "GregorBiswanger/OllamaApiFacade",
+   "seeds": [
+    "kb:Semantic Kernel Ecosystem"
+   ],
+   "provenance": "kb"
+  },
+  "rvinothrajendran/MicrosoftSemanticKernelSamples": {
+   "full_name": "rvinothrajendran/MicrosoftSemanticKernelSamples",
+   "seeds": [
+    "kb:Semantic Kernel Ecosystem"
+   ],
+   "provenance": "kb"
+  },
+  "PacktPublishing/Building-AI-Applications-with-Microsoft-Semantic-Kernel": {
+   "full_name": "PacktPublishing/Building-AI-Applications-with-Microsoft-Semantic-Kernel",
+   "seeds": [
+    "kb:Semantic Kernel Ecosystem"
+   ],
+   "provenance": "kb"
+  },
+  "goodtocode/semantickernel-microservice": {
+   "full_name": "goodtocode/semantickernel-microservice",
+   "seeds": [
+    "kb:Semantic Kernel Ecosystem"
+   ],
+   "provenance": "kb"
+  },
+  "akshaykokane/Multi-AI-Agent-System-with-SemanticKernel": {
+   "full_name": "akshaykokane/Multi-AI-Agent-System-with-SemanticKernel",
+   "seeds": [
+    "kb:Semantic Kernel Ecosystem"
+   ],
+   "provenance": "kb"
+  },
+  "DinithKumudika/Semantic-Kernel-RAG": {
+   "full_name": "DinithKumudika/Semantic-Kernel-RAG",
+   "seeds": [
+    "kb:Semantic Kernel Ecosystem"
+   ],
+   "provenance": "kb"
+  },
+  "microsoft/Conversation-Knowledge-Mining-Solution-Accelerator": {
+   "full_name": "microsoft/Conversation-Knowledge-Mining-Solution-Accelerator",
+   "seeds": [
+    "kb:Azure AI Foundry Ecosystem"
+   ],
+   "provenance": "kb"
+  },
+  "azure-ai-foundry/mcp-foundry": {
+   "full_name": "azure-ai-foundry/mcp-foundry",
+   "seeds": [
+    "kb:Azure AI Foundry Ecosystem"
+   ],
+   "provenance": "kb"
+  },
+  "azure-ai-foundry/foundry-samples": {
+   "full_name": "azure-ai-foundry/foundry-samples",
+   "seeds": [
+    "kb:Azure AI Foundry Ecosystem"
+   ],
+   "provenance": "kb"
+  },
+  "MicrosoftLearning/mslearn-ai-studio": {
+   "full_name": "MicrosoftLearning/mslearn-ai-studio",
+   "seeds": [
+    "kb:Azure AI Foundry Ecosystem"
+   ],
+   "provenance": "kb"
+  },
+  "microsoft/content-processing-solution-accelerator": {
+   "full_name": "microsoft/content-processing-solution-accelerator",
+   "seeds": [
+    "kb:Azure AI Foundry Ecosystem"
+   ],
+   "provenance": "kb"
+  },
+  "Azure/gpt-rag-orchestrator": {
+   "full_name": "Azure/gpt-rag-orchestrator",
+   "seeds": [
+    "kb:Azure AI Foundry Ecosystem"
+   ],
+   "provenance": "kb"
+  },
+  "Azure-Samples/adaptive-rag-workbench": {
+   "full_name": "Azure-Samples/adaptive-rag-workbench",
+   "seeds": [
+    "kb:Azure AI Foundry Ecosystem"
+   ],
+   "provenance": "kb"
+  },
+  "LazaUK/AIFoundry-AgentService-Streamlit": {
+   "full_name": "LazaUK/AIFoundry-AgentService-Streamlit",
+   "seeds": [
+    "kb:Azure AI Foundry Ecosystem"
+   ],
+   "provenance": "kb"
+  },
+  "microsoft/genaiops-azureaisdk-template": {
+   "full_name": "microsoft/genaiops-azureaisdk-template",
+   "seeds": [
+    "kb:Azure AI Foundry Ecosystem"
+   ],
+   "provenance": "kb"
+  },
+  "microsoft/skmultiagents": {
+   "full_name": "microsoft/skmultiagents",
+   "seeds": [
+    "kb:Azure AI Foundry Ecosystem"
+   ],
+   "provenance": "kb"
+  },
+  "Shailender-Youtube/Multi-Agent-Semantic-Kernel-Azure-Agent-Service-Python": {
+   "full_name": "Shailender-Youtube/Multi-Agent-Semantic-Kernel-Azure-Agent-Service-Python",
+   "seeds": [
+    "kb:Azure AI Foundry Ecosystem"
+   ],
+   "provenance": "kb"
+  },
+  "rajeevsingh-dev/agent-framework-journey": {
+   "full_name": "rajeevsingh-dev/agent-framework-journey",
+   "seeds": [
+    "kb:Azure AI Foundry Ecosystem"
+   ],
+   "provenance": "kb"
+  },
+  "HenriSchulte-MS/Multi-Agent-App-Factory": {
+   "full_name": "HenriSchulte-MS/Multi-Agent-App-Factory",
+   "seeds": [
+    "kb:Azure AI Foundry Ecosystem"
+   ],
+   "provenance": "kb"
+  },
+  "cryxnet/DeepMCPAgent": {
+   "full_name": "cryxnet/DeepMCPAgent",
+   "seeds": [
+    "kb:LangGraph & Multi-Agent Systems"
+   ],
+   "provenance": "kb"
+  },
+  "langchain-ai/langgraph-bigtool": {
+   "full_name": "langchain-ai/langgraph-bigtool",
+   "seeds": [
+    "kb:LangGraph & Multi-Agent Systems"
+   ],
+   "provenance": "kb"
+  },
+  "AIwithhassan/ai-agent-chatbot-with-fastapi": {
+   "full_name": "AIwithhassan/ai-agent-chatbot-with-fastapi",
+   "seeds": [
+    "kb:LangGraph & Multi-Agent Systems"
+   ],
+   "provenance": "kb"
+  },
+  "prsdm/langgraph-mcp": {
+   "full_name": "prsdm/langgraph-mcp",
+   "seeds": [
+    "kb:LangGraph & Multi-Agent Systems"
+   ],
+   "provenance": "kb"
+  },
+  "apsquared/lg-agents": {
+   "full_name": "apsquared/lg-agents",
+   "seeds": [
+    "kb:LangGraph & Multi-Agent Systems"
+   ],
+   "provenance": "kb"
+  },
+  "junfanz1/MCP-MultiServer-Interoperable-Agent2Agent-LangGraph-AI-System": {
+   "full_name": "junfanz1/MCP-MultiServer-Interoperable-Agent2Agent-LangGraph-AI-System",
+   "seeds": [
+    "kb:LangGraph & Multi-Agent Systems"
+   ],
+   "provenance": "kb"
+  },
+  "ahmad2b/langgraph-voice-call-agent": {
+   "full_name": "ahmad2b/langgraph-voice-call-agent",
+   "seeds": [
+    "kb:LangGraph & Multi-Agent Systems"
+   ],
+   "provenance": "kb"
+  },
+  "naghost-dev/Fastapi-meets-Langgraph": {
+   "full_name": "naghost-dev/Fastapi-meets-Langgraph",
+   "seeds": [
+    "kb:LangGraph & Multi-Agent Systems"
+   ],
+   "provenance": "kb"
+  },
+  "emanueleielo/langgraph-think-tool": {
+   "full_name": "emanueleielo/langgraph-think-tool",
+   "seeds": [
+    "kb:LangGraph & Multi-Agent Systems"
+   ],
+   "provenance": "kb"
+  },
+  "bentoml/BentoLangGraph": {
+   "full_name": "bentoml/BentoLangGraph",
+   "seeds": [
+    "kb:LangGraph & Multi-Agent Systems"
+   ],
+   "provenance": "kb"
+  },
+  "gswithjeff/autogen-multi-agent-workflow": {
+   "full_name": "gswithjeff/autogen-multi-agent-workflow",
+   "seeds": [
+    "kb:AutoGen Multi-Agent Framework"
+   ],
+   "provenance": "kb"
+  },
+  "botextractai/ai-autogen-multi-agent": {
+   "full_name": "botextractai/ai-autogen-multi-agent",
+   "seeds": [
+    "kb:AutoGen Multi-Agent Framework"
+   ],
+   "provenance": "kb"
+  },
+  "MSFT-Innovation-Hub-India/Multi-Agent-autogen-Report-Gen": {
+   "full_name": "MSFT-Innovation-Hub-India/Multi-Agent-autogen-Report-Gen",
+   "seeds": [
+    "kb:AutoGen Multi-Agent Framework"
+   ],
+   "provenance": "kb"
+  },
+  "nohanaga/autogen-multiagent-workshop": {
+   "full_name": "nohanaga/autogen-multiagent-workshop",
+   "seeds": [
+    "kb:AutoGen Multi-Agent Framework"
+   ],
+   "provenance": "kb"
+  },
+  "Altafalam3/Email-Assistant-Agents": {
+   "full_name": "Altafalam3/Email-Assistant-Agents",
+   "seeds": [
+    "kb:AutoGen Multi-Agent Framework"
+   ],
+   "provenance": "kb"
+  },
+  "MoRaouf/autogen_multi_agent_marketing_team": {
+   "full_name": "MoRaouf/autogen_multi_agent_marketing_team",
+   "seeds": [
+    "kb:AutoGen Multi-Agent Framework"
+   ],
+   "provenance": "kb"
+  },
+  "rishabkumar7/langchain-azure-ai-search-rag": {
+   "full_name": "rishabkumar7/langchain-azure-ai-search-rag",
+   "seeds": [
+    "kb:Azure AI Search & RAG Patterns"
+   ],
+   "provenance": "kb"
+  },
+  "Shailender-Youtube/Azure-openai-Realtime-RAG-twilio-phone": {
+   "full_name": "Shailender-Youtube/Azure-openai-Realtime-RAG-twilio-phone",
+   "seeds": [
+    "kb:Azure AI Search & RAG Patterns"
+   ],
+   "provenance": "kb"
+  },
+  "Arize-ai/openinference": {
+   "full_name": "Arize-ai/openinference",
+   "seeds": [
+    "snowball:Arize-ai/phoenix"
+   ],
+   "provenance": "snowball"
+  },
+  "coleifer/pysqlite3": {
+   "full_name": "coleifer/pysqlite3",
+   "seeds": [
+    "snowball:Arize-ai/phoenix"
+   ],
+   "provenance": "snowball"
+  },
+  "envoyproxy/ai-gateway": {
+   "full_name": "envoyproxy/ai-gateway",
+   "seeds": [
+    "snowball:Arize-ai/phoenix"
+   ],
+   "provenance": "snowball"
+  },
+  "ghaering/pysqlite": {
+   "full_name": "ghaering/pysqlite",
+   "seeds": [
+    "snowball:Arize-ai/phoenix"
+   ],
+   "provenance": "snowball"
+  },
+  "nalgeon/sqlean": {
+   "full_name": "nalgeon/sqlean",
+   "seeds": [
+    "snowball:Arize-ai/phoenix"
+   ],
+   "provenance": "snowball"
+  },
+  "nalgeon/sqlean.py": {
+   "full_name": "nalgeon/sqlean.py",
+   "seeds": [
+    "snowball:Arize-ai/phoenix"
+   ],
+   "provenance": "snowball"
+  },
+  "abiosoft/colima": {
+   "full_name": "abiosoft/colima",
+   "seeds": [
+    "snowball:topoteretes/cognee"
+   ],
+   "provenance": "snowball"
+  },
+  "topoteretes/cognee-community": {
+   "full_name": "topoteretes/cognee-community",
+   "seeds": [
+    "snowball:topoteretes/cognee"
+   ],
+   "provenance": "snowball"
+  },
+  "topoteretes/cognee-integrations": {
+   "full_name": "topoteretes/cognee-integrations",
+   "seeds": [
+    "snowball:topoteretes/cognee"
+   ],
+   "provenance": "snowball"
+  },
+  "topoteretes/cognee-rs": {
+   "full_name": "topoteretes/cognee-rs",
+   "seeds": [
+    "snowball:topoteretes/cognee"
+   ],
+   "provenance": "snowball"
+  },
+  "Lightning-AI/litserve": {
+   "full_name": "Lightning-AI/litserve",
+   "seeds": [
+    "snowball:infiniflow/ragflow"
+   ],
+   "provenance": "snowball"
+  },
+  "andrewyng/translation-agent": {
+   "full_name": "andrewyng/translation-agent",
+   "seeds": [
+    "snowball:infiniflow/ragflow"
+   ],
+   "provenance": "snowball"
+  },
+  "docling-project/docling": {
+   "full_name": "docling-project/docling",
+   "seeds": [
+    "snowball:infiniflow/ragflow"
+   ],
+   "provenance": "snowball"
+  },
+  "infiniflow/infinity": {
+   "full_name": "infiniflow/infinity",
+   "seeds": [
+    "snowball:infiniflow/ragflow"
+   ],
+   "provenance": "snowball"
+  },
+  "netease-youdao/BCEmbedding": {
+   "full_name": "netease-youdao/BCEmbedding",
+   "seeds": [
+    "snowball:infiniflow/ragflow"
+   ],
+   "provenance": "snowball"
+  },
+  "opendataloader-project/opendataloader-pdf": {
+   "full_name": "opendataloader-project/opendataloader-pdf",
+   "seeds": [
+    "snowball:infiniflow/ragflow"
+   ],
+   "provenance": "snowball"
+  },
+  "termux/termux-app": {
+   "full_name": "termux/termux-app",
+   "seeds": [
+    "snowball:infiniflow/ragflow"
+   ],
+   "provenance": "snowball"
+  },
+  "zhayujie/chatgpt-on-wechat": {
+   "full_name": "zhayujie/chatgpt-on-wechat",
+   "seeds": [
+    "snowball:infiniflow/ragflow"
+   ],
+   "provenance": "snowball"
+  },
+  "GoogleCloudPlatform/Sensitive-Data-Protection-for-Vertex-AI-PaLM2": {
+   "full_name": "GoogleCloudPlatform/Sensitive-Data-Protection-for-Vertex-AI-PaLM2",
+   "seeds": [
+    "snowball:GoogleCloudPlatform/generative-ai"
+   ],
+   "provenance": "snowball"
+  },
+  "GoogleCloudPlatform/agent-starter-pack": {
+   "full_name": "GoogleCloudPlatform/agent-starter-pack",
+   "seeds": [
+    "snowball:GoogleCloudPlatform/generative-ai"
+   ],
+   "provenance": "snowball"
+  },
+  "GoogleCloudPlatform/ai-infra-cluster-provisioning": {
+   "full_name": "GoogleCloudPlatform/ai-infra-cluster-provisioning",
+   "seeds": [
+    "snowball:GoogleCloudPlatform/generative-ai"
+   ],
+   "provenance": "snowball"
+  },
+  "GoogleCloudPlatform/ai-on-gke": {
+   "full_name": "GoogleCloudPlatform/ai-on-gke",
+   "seeds": [
+    "snowball:GoogleCloudPlatform/generative-ai"
+   ],
+   "provenance": "snowball"
+  },
+  "GoogleCloudPlatform/applied-ai-engineering-samples": {
+   "full_name": "GoogleCloudPlatform/applied-ai-engineering-samples",
+   "seeds": [
+    "snowball:GoogleCloudPlatform/generative-ai"
+   ],
+   "provenance": "snowball"
+  },
+  "GoogleCloudPlatform/contact-center-ai-samples": {
+   "full_name": "GoogleCloudPlatform/contact-center-ai-samples",
+   "seeds": [
+    "snowball:GoogleCloudPlatform/generative-ai"
+   ],
+   "provenance": "snowball"
+  },
+  "GoogleCloudPlatform/cymbal-superstore": {
+   "full_name": "GoogleCloudPlatform/cymbal-superstore",
+   "seeds": [
+    "snowball:GoogleCloudPlatform/generative-ai"
+   ],
+   "provenance": "snowball"
+  },
+  "GoogleCloudPlatform/dataflow-opinion-analysis": {
+   "full_name": "GoogleCloudPlatform/dataflow-opinion-analysis",
+   "seeds": [
+    "snowball:GoogleCloudPlatform/generative-ai"
+   ],
+   "provenance": "snowball"
+  },
+  "GoogleCloudPlatform/dialogflow-ccai-omnichannel": {
+   "full_name": "GoogleCloudPlatform/dialogflow-ccai-omnichannel",
+   "seeds": [
+    "snowball:GoogleCloudPlatform/generative-ai"
+   ],
+   "provenance": "snowball"
+  },
+  "GoogleCloudPlatform/document-ai-samples": {
+   "full_name": "GoogleCloudPlatform/document-ai-samples",
+   "seeds": [
+    "snowball:GoogleCloudPlatform/generative-ai"
+   ],
+   "provenance": "snowball"
+  },
+  "GoogleCloudPlatform/genai-databases-retrieval-app": {
+   "full_name": "GoogleCloudPlatform/genai-databases-retrieval-app",
+   "seeds": [
+    "snowball:GoogleCloudPlatform/generative-ai"
+   ],
+   "provenance": "snowball"
+  },
+  "GoogleCloudPlatform/genai-for-developers": {
+   "full_name": "GoogleCloudPlatform/genai-for-developers",
+   "seeds": [
+    "snowball:GoogleCloudPlatform/generative-ai"
+   ],
+   "provenance": "snowball"
+  },
+  "GoogleCloudPlatform/genai-for-marketing": {
+   "full_name": "GoogleCloudPlatform/genai-for-marketing",
+   "seeds": [
+    "snowball:GoogleCloudPlatform/generative-ai"
+   ],
+   "provenance": "snowball"
+  },
+  "GoogleCloudPlatform/genai-product-catalog": {
+   "full_name": "GoogleCloudPlatform/genai-product-catalog",
+   "seeds": [
+    "snowball:GoogleCloudPlatform/generative-ai"
+   ],
+   "provenance": "snowball"
+  },
+  "GoogleCloudPlatform/mis-ai-accelerator": {
+   "full_name": "GoogleCloudPlatform/mis-ai-accelerator",
+   "seeds": [
+    "snowball:GoogleCloudPlatform/generative-ai"
+   ],
+   "provenance": "snowball"
+  },
+  "GoogleCloudPlatform/mlops-with-vertex-ai": {
+   "full_name": "GoogleCloudPlatform/mlops-with-vertex-ai",
+   "seeds": [
+    "snowball:GoogleCloudPlatform/generative-ai"
+   ],
+   "provenance": "snowball"
+  },
+  "GoogleCloudPlatform/solutionbuilder-terraform-genai-doc-summarization": {
+   "full_name": "GoogleCloudPlatform/solutionbuilder-terraform-genai-doc-summarization",
+   "seeds": [
+    "snowball:GoogleCloudPlatform/generative-ai"
+   ],
+   "provenance": "snowball"
+  },
+  "GoogleCloudPlatform/solutions-genai-llm-workshop": {
+   "full_name": "GoogleCloudPlatform/solutions-genai-llm-workshop",
+   "seeds": [
+    "snowball:GoogleCloudPlatform/generative-ai"
+   ],
+   "provenance": "snowball"
+  },
+  "GoogleCloudPlatform/solutions-viai-edge-provisioning-configuration": {
+   "full_name": "GoogleCloudPlatform/solutions-viai-edge-provisioning-configuration",
+   "seeds": [
+    "snowball:GoogleCloudPlatform/generative-ai"
+   ],
+   "provenance": "snowball"
+  },
+  "GoogleCloudPlatform/t5x-on-vertex-ai": {
+   "full_name": "GoogleCloudPlatform/t5x-on-vertex-ai",
+   "seeds": [
+    "snowball:GoogleCloudPlatform/generative-ai"
+   ],
+   "provenance": "snowball"
+  },
+  "GoogleCloudPlatform/terraform-genai-doc-summarization": {
+   "full_name": "GoogleCloudPlatform/terraform-genai-doc-summarization",
+   "seeds": [
+    "snowball:GoogleCloudPlatform/generative-ai"
+   ],
+   "provenance": "snowball"
+  },
+  "GoogleCloudPlatform/terraform-genai-knowledge-base": {
+   "full_name": "GoogleCloudPlatform/terraform-genai-knowledge-base",
+   "seeds": [
+    "snowball:GoogleCloudPlatform/generative-ai"
+   ],
+   "provenance": "snowball"
+  },
+  "GoogleCloudPlatform/vertex-ai-alphafold-inference-pipeline": {
+   "full_name": "GoogleCloudPlatform/vertex-ai-alphafold-inference-pipeline",
+   "seeds": [
+    "snowball:GoogleCloudPlatform/generative-ai"
+   ],
+   "provenance": "snowball"
+  },
+  "GoogleCloudPlatform/vertex-ai-creative-studio": {
+   "full_name": "GoogleCloudPlatform/vertex-ai-creative-studio",
+   "seeds": [
+    "snowball:GoogleCloudPlatform/generative-ai"
+   ],
+   "provenance": "snowball"
+  },
+  "GoogleCloudPlatform/vertex-ai-samples": {
+   "full_name": "GoogleCloudPlatform/vertex-ai-samples",
+   "seeds": [
+    "snowball:GoogleCloudPlatform/generative-ai"
+   ],
+   "provenance": "snowball"
+  },
+  "GoogleCloudPlatform/vertex-ai-spark-ml-serving": {
+   "full_name": "GoogleCloudPlatform/vertex-ai-spark-ml-serving",
+   "seeds": [
+    "snowball:GoogleCloudPlatform/generative-ai"
+   ],
+   "provenance": "snowball"
+  },
+  "google/adk-python": {
+   "full_name": "google/adk-python",
+   "seeds": [
+    "snowball:GoogleCloudPlatform/generative-ai"
+   ],
+   "provenance": "snowball"
+  },
+  "google/adk-samples": {
+   "full_name": "google/adk-samples",
+   "seeds": [
+    "snowball:GoogleCloudPlatform/generative-ai"
+   ],
+   "provenance": "snowball"
+  },
+  "google/clasp": {
+   "full_name": "google/clasp",
+   "seeds": [
+    "snowball:GoogleCloudPlatform/generative-ai"
+   ],
+   "provenance": "snowball"
+  },
+  "googleCloudPlatform/genai-factory": {
+   "full_name": "googleCloudPlatform/genai-factory",
+   "seeds": [
+    "snowball:GoogleCloudPlatform/generative-ai"
+   ],
+   "provenance": "snowball"
+  },
+  "googleworkspace/cli": {
+   "full_name": "googleworkspace/cli",
+   "seeds": [
+    "snowball:GoogleCloudPlatform/generative-ai"
+   ],
+   "provenance": "snowball"
+  },
+  "meteatamel/genai-beyond-basics": {
+   "full_name": "meteatamel/genai-beyond-basics",
+   "seeds": [
+    "snowball:GoogleCloudPlatform/generative-ai"
+   ],
+   "provenance": "snowball"
+  },
+  "elastic/eland": {
+   "full_name": "elastic/eland",
+   "seeds": [
+    "snowball:elastic/elasticsearch-labs"
+   ],
+   "provenance": "snowball"
+  },
+  "valerioarvizzigno/homecraft_vertex": {
+   "full_name": "valerioarvizzigno/homecraft_vertex",
+   "seeds": [
+    "snowball:elastic/elasticsearch-labs"
+   ],
+   "provenance": "snowball"
+  },
+  "valerioarvizzigno/homecraft_vertex_lab": {
+   "full_name": "valerioarvizzigno/homecraft_vertex_lab",
+   "seeds": [
+    "snowball:elastic/elasticsearch-labs"
+   ],
+   "provenance": "snowball"
+  },
+  "apps/promptfoo-scanner": {
+   "full_name": "apps/promptfoo-scanner",
+   "seeds": [
+    "snowball:promptfoo/promptfoo"
+   ],
+   "provenance": "snowball"
+  },
+  "awslabs/amazon-bedrock-agents-samples": {
+   "full_name": "awslabs/amazon-bedrock-agents-samples",
+   "seeds": [
+    "snowball:promptfoo/promptfoo"
+   ],
+   "provenance": "snowball"
+  },
+  "langchain-ai/langchain-aws": {
+   "full_name": "langchain-ai/langchain-aws",
+   "seeds": [
+    "snowball:langchain-ai/langchain"
+   ],
+   "provenance": "snowball"
+  },
+  "langchain-ai/langchain-google": {
+   "full_name": "langchain-ai/langchain-google",
+   "seeds": [
+    "snowball:langchain-ai/langchain"
+   ],
+   "provenance": "snowball"
+  },
+  "langchain-ai/langchainjs": {
+   "full_name": "langchain-ai/langchainjs",
+   "seeds": [
+    "snowball:langchain-ai/langchain"
+   ],
+   "provenance": "snowball"
+  },
+  "tophat/syrupy": {
+   "full_name": "tophat/syrupy",
+   "seeds": [
+    "snowball:langchain-ai/langchain"
+   ],
+   "provenance": "snowball"
+  },
+  "DS4SD/docling-serve": {
+   "full_name": "DS4SD/docling-serve",
+   "seeds": [
+    "snowball:HKUDS/LightRAG"
+   ],
+   "provenance": "snowball"
+  },
+  "HKUDS/MiniRAG": {
+   "full_name": "HKUDS/MiniRAG",
+   "seeds": [
+    "snowball:HKUDS/LightRAG"
+   ],
+   "provenance": "snowball"
+  },
+  "HKUDS/RAG-Anything": {
+   "full_name": "HKUDS/RAG-Anything",
+   "seeds": [
+    "snowball:HKUDS/LightRAG"
+   ],
+   "provenance": "snowball"
+  },
+  "HKUDS/VideoRAG": {
+   "full_name": "HKUDS/VideoRAG",
+   "seeds": [
+    "snowball:HKUDS/LightRAG"
+   ],
+   "provenance": "snowball"
+  },
+  "HKUDS/lightrag": {
+   "full_name": "HKUDS/lightrag",
+   "seeds": [
+    "snowball:HKUDS/LightRAG"
+   ],
+   "provenance": "snowball"
+  },
+  "apple/container": {
+   "full_name": "apple/container",
+   "seeds": [
+    "snowball:HKUDS/LightRAG"
+   ],
+   "provenance": "snowball"
+  },
+  "gotestyourself/gotestsum": {
+   "full_name": "gotestyourself/gotestsum",
+   "seeds": [
+    "snowball:milvus-io/milvus"
+   ],
+   "provenance": "snowball"
+  },
+  "milvus-io/community": {
+   "full_name": "milvus-io/community",
+   "seeds": [
+    "snowball:milvus-io/milvus"
+   ],
+   "provenance": "snowball"
+  },
+  "milvus-io/milvus-docs": {
+   "full_name": "milvus-io/milvus-docs",
+   "seeds": [
+    "snowball:milvus-io/milvus"
+   ],
+   "provenance": "snowball"
+  },
+  "milvus-io/milvus-operator": {
+   "full_name": "milvus-io/milvus-operator",
+   "seeds": [
+    "snowball:milvus-io/milvus"
+   ],
+   "provenance": "snowball"
+  },
+  "rapidsai/cuvs": {
+   "full_name": "rapidsai/cuvs",
+   "seeds": [
+    "snowball:milvus-io/milvus"
+   ],
+   "provenance": "snowball"
+  },
+  "Neoxelox/dspy-inspector": {
+   "full_name": "Neoxelox/dspy-inspector",
+   "seeds": [
+    "snowball:stanfordnlp/dspy"
+   ],
+   "provenance": "snowball"
+  },
+  "NousResearch/hermes-agent-self-evolution": {
+   "full_name": "NousResearch/hermes-agent-self-evolution",
+   "seeds": [
+    "snowball:stanfordnlp/dspy"
+   ],
+   "provenance": "snowball"
+  },
+  "S1M0N38/dspy-arxiv": {
+   "full_name": "S1M0N38/dspy-arxiv",
+   "seeds": [
+    "snowball:stanfordnlp/dspy"
+   ],
+   "provenance": "snowball"
+  },
+  "Shangyint/langProBe": {
+   "full_name": "Shangyint/langProBe",
+   "seeds": [
+    "snowball:stanfordnlp/dspy"
+   ],
+   "provenance": "snowball"
+  },
+  "StanfordMIMI/MedVAL": {
+   "full_name": "StanfordMIMI/MedVAL",
+   "seeds": [
+    "snowball:stanfordnlp/dspy"
+   ],
+   "provenance": "snowball"
+  },
+  "XiaoConstantine/dspy-go": {
+   "full_name": "XiaoConstantine/dspy-go",
+   "seeds": [
+    "snowball:stanfordnlp/dspy"
+   ],
+   "provenance": "snowball"
+  },
+  "al322se/DSpyNet": {
+   "full_name": "al322se/DSpyNet",
+   "seeds": [
+    "snowball:stanfordnlp/dspy"
+   ],
+   "provenance": "snowball"
+  },
+  "ax-llm/ax": {
+   "full_name": "ax-llm/ax",
+   "seeds": [
+    "snowball:stanfordnlp/dspy"
+   ],
+   "provenance": "snowball"
+  },
+  "bclavie/RAGatouille": {
+   "full_name": "bclavie/RAGatouille",
+   "seeds": [
+    "snowball:stanfordnlp/dspy"
+   ],
+   "provenance": "snowball"
+  },
+  "diicellman/dspy-gradio-rag": {
+   "full_name": "diicellman/dspy-gradio-rag",
+   "seeds": [
+    "snowball:stanfordnlp/dspy"
+   ],
+   "provenance": "snowball"
+  },
+  "diicellman/dspy-rag-fastapi": {
+   "full_name": "diicellman/dspy-rag-fastapi",
+   "seeds": [
+    "snowball:stanfordnlp/dspy"
+   ],
+   "provenance": "snowball"
+  },
+  "ganarajpr/sanskrit-translator-dspy": {
+   "full_name": "ganarajpr/sanskrit-translator-dspy",
+   "seeds": [
+    "snowball:stanfordnlp/dspy"
+   ],
+   "provenance": "snowball"
+  },
+  "haizelabs/dspy-redteam": {
+   "full_name": "haizelabs/dspy-redteam",
+   "seeds": [
+    "snowball:stanfordnlp/dspy"
+   ],
+   "provenance": "snowball"
+  },
+  "ittia-research/check": {
+   "full_name": "ittia-research/check",
+   "seeds": [
+    "snowball:stanfordnlp/dspy"
+   ],
+   "provenance": "snowball"
+  },
+  "jameshwade/dsprrr": {
+   "full_name": "jameshwade/dsprrr",
+   "seeds": [
+    "snowball:stanfordnlp/dspy"
+   ],
+   "provenance": "snowball"
+  },
+  "jimporter/mike": {
+   "full_name": "jimporter/mike",
+   "seeds": [
+    "snowball:stanfordnlp/dspy"
+   ],
+   "provenance": "snowball"
+  },
+  "jjovalle99/DSPy-Text2SQL": {
+   "full_name": "jjovalle99/DSPy-Text2SQL",
+   "seeds": [
+    "snowball:stanfordnlp/dspy"
+   ],
+   "provenance": "snowball"
+  },
+  "krypticmouse/DSRs": {
+   "full_name": "krypticmouse/DSRs",
+   "seeds": [
+    "snowball:stanfordnlp/dspy"
+   ],
+   "provenance": "snowball"
+  },
+  "pawamoy/mkdocs-llmstxt": {
+   "full_name": "pawamoy/mkdocs-llmstxt",
+   "seeds": [
+    "snowball:stanfordnlp/dspy"
+   ],
+   "provenance": "snowball"
+  },
+  "plastic-labs/dspy-opentom": {
+   "full_name": "plastic-labs/dspy-opentom",
+   "seeds": [
+    "snowball:stanfordnlp/dspy"
+   ],
+   "provenance": "snowball"
+  },
+  "saifulhaq95/DSPy-Indic": {
+   "full_name": "saifulhaq95/DSPy-Indic",
+   "seeds": [
+    "snowball:stanfordnlp/dspy"
+   ],
+   "provenance": "snowball"
+  },
+  "seanchatmangpt/dspygen": {
+   "full_name": "seanchatmangpt/dspygen",
+   "seeds": [
+    "snowball:stanfordnlp/dspy"
+   ],
+   "provenance": "snowball"
+  },
+  "stanford-oval/storm": {
+   "full_name": "stanford-oval/storm",
+   "seeds": [
+    "snowball:stanfordnlp/dspy"
+   ],
+   "provenance": "snowball"
+  },
+  "stanfordnlp/dsp": {
+   "full_name": "stanfordnlp/dsp",
+   "seeds": [
+    "snowball:stanfordnlp/dspy"
+   ],
+   "provenance": "snowball"
+  },
+  "unravel-team/DSCloj": {
+   "full_name": "unravel-team/DSCloj",
+   "seeds": [
+    "snowball:stanfordnlp/dspy"
+   ],
+   "provenance": "snowball"
+  },
+  "weaviate-tutorials/Hurricane": {
+   "full_name": "weaviate-tutorials/Hurricane",
+   "seeds": [
+    "snowball:stanfordnlp/dspy"
+   ],
+   "provenance": "snowball"
+  },
+  "zbambergerNLP/strategic-debate-tot": {
+   "full_name": "zbambergerNLP/strategic-debate-tot",
+   "seeds": [
+    "snowball:stanfordnlp/dspy"
+   ],
+   "provenance": "snowball"
+  },
+  "deepset-ai/hayhooks": {
+   "full_name": "deepset-ai/hayhooks",
+   "seeds": [
+    "snowball:deepset-ai/haystack"
+   ],
+   "provenance": "snowball"
+  },
+  "deepset-ai/haystack-core-integrations": {
+   "full_name": "deepset-ai/haystack-core-integrations",
+   "seeds": [
+    "snowball:deepset-ai/haystack"
+   ],
+   "provenance": "snowball"
+  },
+  "deepset-ai/haystack-pydoc-tools": {
+   "full_name": "deepset-ai/haystack-pydoc-tools",
+   "seeds": [
+    "snowball:deepset-ai/haystack"
+   ],
+   "provenance": "snowball"
+  },
+  "din0s/docusaurus-plugin-llms-txt": {
+   "full_name": "din0s/docusaurus-plugin-llms-txt",
+   "seeds": [
+    "snowball:deepset-ai/haystack"
+   ],
+   "provenance": "snowball"
+  },
+  "google/atheris": {
+   "full_name": "google/atheris",
+   "seeds": [
+    "snowball:deepset-ai/haystack"
+   ],
+   "provenance": "snowball"
+  },
+  "intel/open-domain-question-and-answer": {
+   "full_name": "intel/open-domain-question-and-answer",
+   "seeds": [
+    "snowball:deepset-ai/haystack"
+   ],
+   "provenance": "snowball"
+  },
+  "larsbaunwall/bricky": {
+   "full_name": "larsbaunwall/bricky",
+   "seeds": [
+    "snowball:deepset-ai/haystack"
+   ],
+   "provenance": "snowball"
+  },
+  "pytest-dev/pytest-bdd": {
+   "full_name": "pytest-dev/pytest-bdd",
+   "seeds": [
+    "snowball:deepset-ai/haystack"
+   ],
+   "provenance": "snowball"
+  },
+  "bfshi/scaling_on_scales": {
+   "full_name": "bfshi/scaling_on_scales",
+   "seeds": [
+    "snowball:embeddings-benchmark/mteb"
+   ],
+   "provenance": "snowball"
+  },
+  "embeddings-benchmark/results": {
+   "full_name": "embeddings-benchmark/results",
+   "seeds": [
+    "snowball:embeddings-benchmark/mteb"
+   ],
+   "provenance": "snowball"
+  },
+  "openai/openai-cookbook": {
+   "full_name": "openai/openai-cookbook",
+   "seeds": [
+    "snowball:chroma-core/chroma"
+   ],
+   "provenance": "snowball"
+  },
+  "codespell-project/codespell": {
+   "full_name": "codespell-project/codespell",
+   "seeds": [
+    "snowball:open-webui/open-webui"
+   ],
+   "provenance": "snowball"
+  },
+  "open-webui/computer": {
+   "full_name": "open-webui/computer",
+   "seeds": [
+    "snowball:open-webui/open-webui"
+   ],
+   "provenance": "snowball"
+  },
+  "open-webui/desktop": {
+   "full_name": "open-webui/desktop",
+   "seeds": [
+    "snowball:open-webui/open-webui"
+   ],
+   "provenance": "snowball"
+  },
+  "open-webui/docs": {
+   "full_name": "open-webui/docs",
+   "seeds": [
+    "snowball:open-webui/open-webui"
+   ],
+   "provenance": "snowball"
+  },
+  "open-webui/oikb": {
+   "full_name": "open-webui/oikb",
+   "seeds": [
+    "snowball:open-webui/open-webui"
+   ],
+   "provenance": "snowball"
+  },
+  "open-webui/open-terminal": {
+   "full_name": "open-webui/open-terminal",
+   "seeds": [
+    "snowball:open-webui/open-webui"
+   ],
+   "provenance": "snowball"
+  },
+  "open-webui/terminals": {
+   "full_name": "open-webui/terminals",
+   "seeds": [
+    "snowball:open-webui/open-webui"
+   ],
+   "provenance": "snowball"
+  },
+  "8090-inc/xrx-sample-apps": {
+   "full_name": "8090-inc/xrx-sample-apps",
+   "seeds": [
+    "snowball:langfuse/langfuse"
+   ],
+   "provenance": "snowball"
+  },
+  "AIDotNet/koala-ai": {
+   "full_name": "AIDotNet/koala-ai",
+   "seeds": [
+    "snowball:langfuse/langfuse"
+   ],
+   "provenance": "snowball"
+  },
+  "BasedHardware/omi": {
+   "full_name": "BasedHardware/omi",
+   "seeds": [
+    "snowball:langfuse/langfuse"
+   ],
+   "provenance": "snowball"
+  },
+  "BerriAI/litellm": {
+   "full_name": "BerriAI/litellm",
+   "seeds": [
+    "snowball:langfuse/langfuse"
+   ],
+   "provenance": "snowball"
+  },
+  "Canner/WrenAI": {
+   "full_name": "Canner/WrenAI",
+   "seeds": [
+    "snowball:langfuse/langfuse"
+   ],
+   "provenance": "snowball"
+  },
+  "ClickHouse/ClickHouse": {
+   "full_name": "ClickHouse/ClickHouse",
+   "seeds": [
+    "snowball:langfuse/langfuse"
+   ],
+   "provenance": "snowball"
+  },
+  "ElectricCodeGuy/SupabaseAuthWithSSR": {
+   "full_name": "ElectricCodeGuy/SupabaseAuthWithSSR",
+   "seeds": [
+    "snowball:langfuse/langfuse"
+   ],
+   "provenance": "snowball"
+  },
+  "Fintech-Dreamer/FinSynth": {
+   "full_name": "Fintech-Dreamer/FinSynth",
+   "seeds": [
+    "snowball:langfuse/langfuse"
+   ],
+   "provenance": "snowball"
+  },
+  "FlowiseAI/Flowise": {
+   "full_name": "FlowiseAI/Flowise",
+   "seeds": [
+    "snowball:langfuse/langfuse"
+   ],
+   "provenance": "snowball"
+  },
+  "FranciscoMoretti/sparka": {
+   "full_name": "FranciscoMoretti/sparka",
+   "seeds": [
+    "snowball:langfuse/langfuse"
+   ],
+   "provenance": "snowball"
+  },
+  "JoshuaC215/agent-service-toolkit": {
+   "full_name": "JoshuaC215/agent-service-toolkit",
+   "seeds": [
+    "snowball:langfuse/langfuse"
+   ],
+   "provenance": "snowball"
+  },
+  "MLSysOps/MLE-agent": {
+   "full_name": "MLSysOps/MLE-agent",
+   "seeds": [
+    "snowball:langfuse/langfuse"
+   ],
+   "provenance": "snowball"
+  },
+  "NicholasGoh/fastapi-mcp-langgraph-template": {
+   "full_name": "NicholasGoh/fastapi-mcp-langgraph-template",
+   "seeds": [
+    "snowball:langfuse/langfuse"
+   ],
+   "provenance": "snowball"
+  },
+  "NixOS/nixpkgs": {
+   "full_name": "NixOS/nixpkgs",
+   "seeds": [
+    "snowball:langfuse/langfuse"
+   ],
+   "provenance": "snowball"
+  },
+  "OVINC-CN/OpenWebUI": {
+   "full_name": "OVINC-CN/OpenWebUI",
+   "seeds": [
+    "snowball:langfuse/langfuse"
+   ],
+   "provenance": "snowball"
+  },
+  "OpenPipe/ART": {
+   "full_name": "OpenPipe/ART",
+   "seeds": [
+    "snowball:langfuse/langfuse"
+   ],
+   "provenance": "snowball"
+  },
+  "Ozamatash/deep-research-mcp": {
+   "full_name": "Ozamatash/deep-research-mcp",
+   "seeds": [
+    "snowball:langfuse/langfuse"
+   ],
+   "provenance": "snowball"
+  },
+  "RobotecAI/rai": {
+   "full_name": "RobotecAI/rai",
+   "seeds": [
+    "snowball:langfuse/langfuse"
+   ],
+   "provenance": "snowball"
+  },
+  "TIGER-AI-Lab/TheoremExplainAgent": {
+   "full_name": "TIGER-AI-Lab/TheoremExplainAgent",
+   "seeds": [
+    "snowball:langfuse/langfuse"
+   ],
+   "provenance": "snowball"
+  },
+  "The-Pocket/PocketFlow": {
+   "full_name": "The-Pocket/PocketFlow",
+   "seeds": [
+    "snowball:langfuse/langfuse"
+   ],
+   "provenance": "snowball"
+  },
+  "TheSpaghettiDetective/obico-server": {
+   "full_name": "TheSpaghettiDetective/obico-server",
+   "seeds": [
+    "snowball:langfuse/langfuse"
+   ],
+   "provenance": "snowball"
+  },
+  "VoltAgent/voltagent": {
+   "full_name": "VoltAgent/voltagent",
+   "seeds": [
+    "snowball:langfuse/langfuse"
+   ],
+   "provenance": "snowball"
+  },
+  "XSpoonAi/spoon-core": {
+   "full_name": "XSpoonAi/spoon-core",
+   "seeds": [
+    "snowball:langfuse/langfuse"
+   ],
+   "provenance": "snowball"
+  },
+  "YFGaia/dify-plus": {
+   "full_name": "YFGaia/dify-plus",
+   "seeds": [
+    "snowball:langfuse/langfuse"
+   ],
+   "provenance": "snowball"
+  },
+  "abi/screenshot-to-code": {
+   "full_name": "abi/screenshot-to-code",
+   "seeds": [
+    "snowball:langfuse/langfuse"
+   ],
+   "provenance": "snowball"
+  },
+  "ai-shifu/ai-shifu": {
+   "full_name": "ai-shifu/ai-shifu",
+   "seeds": [
+    "snowball:langfuse/langfuse"
+   ],
+   "provenance": "snowball"
+  },
+  "alishobeiri/thread": {
+   "full_name": "alishobeiri/thread",
+   "seeds": [
+    "snowball:langfuse/langfuse"
+   ],
+   "provenance": "snowball"
+  },
+  "andysingal/llm-course": {
+   "full_name": "andysingal/llm-course",
+   "seeds": [
+    "snowball:langfuse/langfuse"
+   ],
+   "provenance": "snowball"
+  },
+  "anthropics/courses": {
+   "full_name": "anthropics/courses",
+   "seeds": [
+    "snowball:langfuse/langfuse"
+   ],
+   "provenance": "snowball"
+  },
+  "aws-samples/aws-ai-ml-workshop-kr": {
+   "full_name": "aws-samples/aws-ai-ml-workshop-kr",
+   "seeds": [
+    "snowball:langfuse/langfuse"
+   ],
+   "provenance": "snowball"
+  },
+  "aws-samples/sample-serverless-mcp-servers": {
+   "full_name": "aws-samples/sample-serverless-mcp-servers",
+   "seeds": [
+    "snowball:langfuse/langfuse"
+   ],
+   "provenance": "snowball"
+  },
+  "awslabs/agent-squad": {
+   "full_name": "awslabs/agent-squad",
+   "seeds": [
+    "snowball:langfuse/langfuse"
+   ],
+   "provenance": "snowball"
+  },
+  "babelcloud/LLM-RGB": {
+   "full_name": "babelcloud/LLM-RGB",
+   "seeds": [
+    "snowball:langfuse/langfuse"
+   ],
+   "provenance": "snowball"
+  },
+  "bklieger-groq/mathtutor-on-groq": {
+   "full_name": "bklieger-groq/mathtutor-on-groq",
+   "seeds": [
+    "snowball:langfuse/langfuse"
+   ],
+   "provenance": "snowball"
+  },
+  "bmd1905/ChatOpsLLM": {
+   "full_name": "bmd1905/ChatOpsLLM",
+   "seeds": [
+    "snowball:langfuse/langfuse"
+   ],
+   "provenance": "snowball"
+  },
+  "bragai/bRAG-langchain": {
+   "full_name": "bragai/bRAG-langchain",
+   "seeds": [
+    "snowball:langfuse/langfuse"
+   ],
+   "provenance": "snowball"
+  },
+  "celerforge/freenote": {
+   "full_name": "celerforge/freenote",
+   "seeds": [
+    "snowball:langfuse/langfuse"
+   ],
+   "provenance": "snowball"
+  },
+  "chatchat-space/LangGraph-Chatchat": {
+   "full_name": "chatchat-space/LangGraph-Chatchat",
+   "seeds": [
+    "snowball:langfuse/langfuse"
+   ],
+   "provenance": "snowball"
+  },
+  "chatchat-space/Langchain-Chatchat": {
+   "full_name": "chatchat-space/Langchain-Chatchat",
+   "seeds": [
+    "snowball:langfuse/langfuse"
+   ],
+   "provenance": "snowball"
+  },
+  "codecentric/c4-genai-suite": {
+   "full_name": "codecentric/c4-genai-suite",
+   "seeds": [
+    "snowball:langfuse/langfuse"
+   ],
+   "provenance": "snowball"
+  },
+  "colanode/colanode": {
+   "full_name": "colanode/colanode",
+   "seeds": [
+    "snowball:langfuse/langfuse"
+   ],
+   "provenance": "snowball"
+  },
+  "coleam00/ottomator-agents": {
+   "full_name": "coleam00/ottomator-agents",
+   "seeds": [
+    "snowball:langfuse/langfuse"
+   ],
+   "provenance": "snowball"
+  },
+  "dmayboroda/minima": {
+   "full_name": "dmayboroda/minima",
+   "seeds": [
+    "snowball:langfuse/langfuse"
+   ],
+   "provenance": "snowball"
+  },
+  "duoyang666/ai_novel": {
+   "full_name": "duoyang666/ai_novel",
+   "seeds": [
+    "snowball:langfuse/langfuse"
+   ],
+   "provenance": "snowball"
+  },
+  "dynamiq-ai/dynamiq": {
+   "full_name": "dynamiq-ai/dynamiq",
+   "seeds": [
+    "snowball:langfuse/langfuse"
+   ],
+   "provenance": "snowball"
+  },
+  "firecrawl/firecrawl": {
+   "full_name": "firecrawl/firecrawl",
+   "seeds": [
+    "snowball:langfuse/langfuse"
+   ],
+   "provenance": "snowball"
+  },
+  "giselles-ai/giselle": {
+   "full_name": "giselles-ai/giselle",
+   "seeds": [
+    "snowball:langfuse/langfuse"
+   ],
+   "provenance": "snowball"
+  },
+  "guyernest/advanced-rag": {
+   "full_name": "guyernest/advanced-rag",
+   "seeds": [
+    "snowball:langfuse/langfuse"
+   ],
+   "provenance": "snowball"
+  },
+  "hatchet-dev/hatchet": {
+   "full_name": "hatchet-dev/hatchet",
+   "seeds": [
+    "snowball:langfuse/langfuse"
+   ],
+   "provenance": "snowball"
+  },
+  "hotovo/aider-desk": {
+   "full_name": "hotovo/aider-desk",
+   "seeds": [
+    "snowball:langfuse/langfuse"
+   ],
+   "provenance": "snowball"
+  },
+  "i-am-alice/3rd-devs": {
+   "full_name": "i-am-alice/3rd-devs",
+   "seeds": [
+    "snowball:langfuse/langfuse"
+   ],
+   "provenance": "snowball"
+  },
+  "i-dot-ai/redbox": {
+   "full_name": "i-dot-ai/redbox",
+   "seeds": [
+    "snowball:langfuse/langfuse"
+   ],
+   "provenance": "snowball"
+  },
+  "iceener/ai": {
+   "full_name": "iceener/ai",
+   "seeds": [
+    "snowball:langfuse/langfuse"
+   ],
+   "provenance": "snowball"
+  },
+  "inferablehq/inferable": {
+   "full_name": "inferablehq/inferable",
+   "seeds": [
+    "snowball:langfuse/langfuse"
+   ],
+   "provenance": "snowball"
+  },
+  "kenshiro-o/nagato-ai": {
+   "full_name": "kenshiro-o/nagato-ai",
+   "seeds": [
+    "snowball:langfuse/langfuse"
+   ],
+   "provenance": "snowball"
+  },
+  "kortix-ai/suna": {
+   "full_name": "kortix-ai/suna",
+   "seeds": [
+    "snowball:langfuse/langfuse"
+   ],
+   "provenance": "snowball"
+  },
+  "Azure-Samples/ai-rag-chat-evaluator": {
+   "full_name": "Azure-Samples/ai-rag-chat-evaluator",
+   "seeds": [
+    "snowball:Azure-Samples/azure-search-openai-demo"
+   ],
+   "provenance": "snowball"
+  },
+  "Azure-Samples/azure-search-openai-javascript": {
+   "full_name": "Azure-Samples/azure-search-openai-javascript",
+   "seeds": [
+    "snowball:Azure-Samples/azure-search-openai-demo"
+   ],
+   "provenance": "snowball"
+  },
+  "Microsoft/Oryx": {
+   "full_name": "Microsoft/Oryx",
+   "seeds": [
+    "snowball:Azure-Samples/azure-search-openai-demo"
+   ],
+   "provenance": "snowball"
+  },
+  "azure-samples/azure-search-openai-demo": {
+   "full_name": "azure-samples/azure-search-openai-demo",
+   "seeds": [
+    "snowball:Azure-Samples/azure-search-openai-demo"
+   ],
+   "provenance": "snowball"
+  },
+  "microsoft/Oryx": {
+   "full_name": "microsoft/Oryx",
+   "seeds": [
+    "snowball:Azure-Samples/azure-search-openai-demo"
+   ],
+   "provenance": "snowball"
+  },
+  "microsoft/azurechat": {
+   "full_name": "microsoft/azurechat",
+   "seeds": [
+    "snowball:Azure-Samples/azure-search-openai-demo"
+   ],
+   "provenance": "snowball"
+  },
+  "powershell/powershell": {
+   "full_name": "powershell/powershell",
+   "seeds": [
+    "snowball:Azure-Samples/azure-search-openai-demo"
+   ],
+   "provenance": "snowball"
+  },
+  "promptise-com/foundry": {
+   "full_name": "promptise-com/foundry",
+   "seeds": [
+    "snowball:cryxnet/DeepMCPAgent"
+   ],
+   "provenance": "snowball"
+  },
+  "pinecone-io/bird-search-example": {
+   "full_name": "pinecone-io/bird-search-example",
+   "seeds": [
+    "snowball:pinecone-io/examples"
+   ],
+   "provenance": "snowball"
+  },
+  "NVIDIA/workbench-example-hybrid-rag": {
+   "full_name": "NVIDIA/workbench-example-hybrid-rag",
+   "seeds": [
+    "snowball:NVIDIA/GenerativeAIExamples"
+   ],
+   "provenance": "snowball"
+  },
+  "gephi/gephi-lite": {
+   "full_name": "gephi/gephi-lite",
+   "seeds": [
+    "snowball:NVIDIA/GenerativeAIExamples"
+   ],
+   "provenance": "snowball"
+  },
+  "hwchase17/chain-of-verification": {
+   "full_name": "hwchase17/chain-of-verification",
+   "seeds": [
+    "snowball:NVIDIA/GenerativeAIExamples"
+   ],
+   "provenance": "snowball"
+  },
+  "nv-morpheus/Morpheus": {
+   "full_name": "nv-morpheus/Morpheus",
+   "seeds": [
+    "snowball:NVIDIA/GenerativeAIExamples"
+   ],
+   "provenance": "snowball"
+  },
+  "nvidia/GenerativeAIExamples": {
+   "full_name": "nvidia/GenerativeAIExamples",
+   "seeds": [
+    "snowball:NVIDIA/GenerativeAIExamples"
+   ],
+   "provenance": "snowball"
+  },
+  "rapidsai/cugraph": {
+   "full_name": "rapidsai/cugraph",
+   "seeds": [
+    "snowball:NVIDIA/GenerativeAIExamples"
+   ],
+   "provenance": "snowball"
+  },
+  "comet-ml/opik-claude-code-plugin": {
+   "full_name": "comet-ml/opik-claude-code-plugin",
+   "seeds": [
+    "snowball:comet-ml/opik"
+   ],
+   "provenance": "snowball"
+  },
+  "fern-api/fern": {
+   "full_name": "fern-api/fern",
+   "seeds": [
+    "snowball:comet-ml/opik"
+   ],
+   "provenance": "snowball"
+  },
+  "anthropics/skills": {
+   "full_name": "anthropics/skills",
+   "seeds": [
+    "snowball:mem0ai/mem0"
+   ],
+   "provenance": "snowball"
+  },
+  "deepseek-ai/deepseek-harness": {
+   "full_name": "deepseek-ai/deepseek-harness",
+   "seeds": [
+    "snowball:mem0ai/mem0"
+   ],
+   "provenance": "snowball"
+  },
+  "mem0ai/memory-benchmarks": {
+   "full_name": "mem0ai/memory-benchmarks",
+   "seeds": [
+    "snowball:mem0ai/mem0"
+   ],
+   "provenance": "snowball"
+  },
+  "openclaw/openclaw": {
+   "full_name": "openclaw/openclaw",
+   "seeds": [
+    "snowball:mem0ai/mem0"
+   ],
+   "provenance": "snowball"
+  },
+  "strands-agents/extension-template": {
+   "full_name": "strands-agents/extension-template",
+   "seeds": [
+    "snowball:mem0ai/mem0"
+   ],
+   "provenance": "snowball"
+  },
+  "strands-agents/sdk-python": {
+   "full_name": "strands-agents/sdk-python",
+   "seeds": [
+    "snowball:mem0ai/mem0"
+   ],
+   "provenance": "snowball"
+  },
+  "strands-agents/tools": {
+   "full_name": "strands-agents/tools",
+   "seeds": [
+    "snowball:mem0ai/mem0"
+   ],
+   "provenance": "snowball"
+  },
+  "LostRuins/koboldcpp": {
+   "full_name": "LostRuins/koboldcpp",
+   "seeds": [
+    "snowball:Mintplex-Labs/anything-llm"
+   ],
+   "provenance": "snowball"
+  },
+  "Mintplex-Labs/anythingllm-embed": {
+   "full_name": "Mintplex-Labs/anythingllm-embed",
+   "seeds": [
+    "snowball:Mintplex-Labs/anything-llm"
+   ],
+   "provenance": "snowball"
+  },
+  "Mintplex-Labs/anythingllm-extension": {
+   "full_name": "Mintplex-Labs/anythingllm-extension",
+   "seeds": [
+    "snowball:Mintplex-Labs/anything-llm"
+   ],
+   "provenance": "snowball"
+  },
+  "Mintplex-Labs/anythingllm-mobile": {
+   "full_name": "Mintplex-Labs/anythingllm-mobile",
+   "seeds": [
+    "snowball:Mintplex-Labs/anything-llm"
+   ],
+   "provenance": "snowball"
+  },
+  "Mintplex-Labs/epub2-static": {
+   "full_name": "Mintplex-Labs/epub2-static",
+   "seeds": [
+    "snowball:Mintplex-Labs/anything-llm"
+   ],
+   "provenance": "snowball"
+  },
+  "jundot/omlx": {
+   "full_name": "jundot/omlx",
+   "seeds": [
+    "snowball:Mintplex-Labs/anything-llm"
+   ],
+   "provenance": "snowball"
+  },
+  "llmmanorg/llmman": {
+   "full_name": "llmmanorg/llmman",
+   "seeds": [
+    "snowball:Mintplex-Labs/anything-llm"
+   ],
+   "provenance": "snowball"
+  },
+  "microsoft/Foundry-Local": {
+   "full_name": "microsoft/Foundry-Local",
+   "seeds": [
+    "snowball:Mintplex-Labs/anything-llm"
+   ],
+   "provenance": "snowball"
+  },
+  "mintplex-labs/anything-llm": {
+   "full_name": "mintplex-labs/anything-llm",
+   "seeds": [
+    "snowball:Mintplex-Labs/anything-llm"
+   ],
+   "provenance": "snowball"
+  },
+  "oobabooga/text-generation-webui": {
+   "full_name": "oobabooga/text-generation-webui",
+   "seeds": [
+    "snowball:Mintplex-Labs/anything-llm"
+   ],
+   "provenance": "snowball"
+  },
+  "rhasspy/piper": {
+   "full_name": "rhasspy/piper",
+   "seeds": [
+    "snowball:Mintplex-Labs/anything-llm"
+   ],
+   "provenance": "snowball"
+  },
+  "run-llama/liteparse": {
+   "full_name": "run-llama/liteparse",
+   "seeds": [
+    "snowball:run-llama/llama_index"
+   ],
+   "provenance": "snowball"
+  },
+  "weaviate-tutorials/awesome-moviate": {
+   "full_name": "weaviate-tutorials/awesome-moviate",
+   "seeds": [
+    "snowball:weaviate/weaviate"
+   ],
+   "provenance": "snowball"
+  },
+  "weaviate/agent-skills": {
+   "full_name": "weaviate/agent-skills",
+   "seeds": [
+    "snowball:weaviate/weaviate"
+   ],
+   "provenance": "snowball"
+  },
+  "weaviate/elysia": {
+   "full_name": "weaviate/elysia",
+   "seeds": [
+    "snowball:weaviate/weaviate"
+   ],
+   "provenance": "snowball"
+  },
+  "weaviate/healthsearch-demo": {
+   "full_name": "weaviate/healthsearch-demo",
+   "seeds": [
+    "snowball:weaviate/weaviate"
+   ],
+   "provenance": "snowball"
+  },
+  "weaviate/verba": {
+   "full_name": "weaviate/verba",
+   "seeds": [
+    "snowball:weaviate/weaviate"
+   ],
+   "provenance": "snowball"
+  },
+  "ClickHouse/code-interpreter": {
+   "full_name": "ClickHouse/code-interpreter",
+   "seeds": [
+    "snowball:danny-avila/LibreChat"
+   ],
+   "provenance": "snowball"
+  },
+  "aidenybai/react-scan": {
+   "full_name": "aidenybai/react-scan",
+   "seeds": [
+    "snowball:danny-avila/LibreChat"
+   ],
+   "provenance": "snowball"
+  },
+  "danny-avila/rag_api": {
+   "full_name": "danny-avila/rag_api",
+   "seeds": [
+    "snowball:danny-avila/LibreChat"
+   ],
+   "provenance": "snowball"
+  },
+  "Blaizzy/mlx-vlm": {
+   "full_name": "Blaizzy/mlx-vlm",
+   "seeds": [
+    "snowball:DS4SD/docling"
+   ],
+   "provenance": "snowball"
+  },
+  "OpenNMT/CTranslate2": {
+   "full_name": "OpenNMT/CTranslate2",
+   "seeds": [
+    "snowball:DS4SD/docling"
+   ],
+   "provenance": "snowball"
+  },
+  "TejasQ/example-docling-media": {
+   "full_name": "TejasQ/example-docling-media",
+   "seeds": [
+    "snowball:DS4SD/docling"
+   ],
+   "provenance": "snowball"
+  },
+  "docling-project/docling-ibm-models": {
+   "full_name": "docling-project/docling-ibm-models",
+   "seeds": [
+    "snowball:DS4SD/docling"
+   ],
+   "provenance": "snowball"
+  },
+  "docling-project/docling-jobkit": {
+   "full_name": "docling-project/docling-jobkit",
+   "seeds": [
+    "snowball:DS4SD/docling"
+   ],
+   "provenance": "snowball"
+  },
+  "docling-project/docling-mcp": {
+   "full_name": "docling-project/docling-mcp",
+   "seeds": [
+    "snowball:DS4SD/docling"
+   ],
+   "provenance": "snowball"
+  },
+  "docling-project/docling-serve": {
+   "full_name": "docling-project/docling-serve",
+   "seeds": [
+    "snowball:DS4SD/docling"
+   ],
+   "provenance": "snowball"
+  },
+  "huggingface/smolagents": {
+   "full_name": "huggingface/smolagents",
+   "seeds": [
+    "snowball:DS4SD/docling"
+   ],
+   "provenance": "snowball"
+  },
+  "huggingface/transformers": {
+   "full_name": "huggingface/transformers",
+   "seeds": [
+    "snowball:DS4SD/docling"
+   ],
+   "provenance": "snowball"
+  },
+  "larandvit/ebcdic-parser": {
+   "full_name": "larandvit/ebcdic-parser",
+   "seeds": [
+    "snowball:DS4SD/docling"
+   ],
+   "provenance": "snowball"
+  },
+  "llamastack/llama-stack": {
+   "full_name": "llamastack/llama-stack",
+   "seeds": [
+    "snowball:DS4SD/docling"
+   ],
+   "provenance": "snowball"
+  },
+  "openai/whisper": {
+   "full_name": "openai/whisper",
+   "seeds": [
+    "snowball:DS4SD/docling"
+   ],
+   "provenance": "snowball"
+  },
+  "pyannote/pyannote-audio": {
+   "full_name": "pyannote/pyannote-audio",
+   "seeds": [
+    "snowball:DS4SD/docling"
+   ],
+   "provenance": "snowball"
+  },
+  "resemble-ai/Resemblyzer": {
+   "full_name": "resemble-ai/Resemblyzer",
+   "seeds": [
+    "snowball:DS4SD/docling"
+   ],
+   "provenance": "snowball"
+  },
+  "confident-ai/confident-mcp-server": {
+   "full_name": "confident-ai/confident-mcp-server",
+   "seeds": [
+    "snowball:confident-ai/deepeval"
+   ],
+   "provenance": "snowball"
+  },
+  "confident-ai/deepteam": {
+   "full_name": "confident-ai/deepteam",
+   "seeds": [
+    "snowball:confident-ai/deepeval"
+   ],
+   "provenance": "snowball"
+  },
+  "fuma-nama/fumadocs": {
+   "full_name": "fuma-nama/fumadocs",
+   "seeds": [
+    "snowball:confident-ai/deepeval"
+   ],
+   "provenance": "snowball"
+  },
+  "langchain-ai/agent-inbox": {
+   "full_name": "langchain-ai/agent-inbox",
+   "seeds": [
+    "snowball:langchain-ai/langgraph"
+   ],
+   "provenance": "snowball"
+  },
+  "langchain-ai/langgraph-studio": {
+   "full_name": "langchain-ai/langgraph-studio",
+   "seeds": [
+    "snowball:langchain-ai/langgraph"
+   ],
+   "provenance": "snowball"
+  },
+  "langchain-ai/langgraphjs": {
+   "full_name": "langchain-ai/langgraphjs",
+   "seeds": [
+    "snowball:langchain-ai/langgraph"
+   ],
+   "provenance": "snowball"
+  },
+  "langchain-ai/new-langgraphjs-project": {
+   "full_name": "langchain-ai/new-langgraphjs-project",
+   "seeds": [
+    "snowball:langchain-ai/langgraph"
+   ],
+   "provenance": "snowball"
+  },
+  "azure-samples/chat-with-your-data-solution-accelerator": {
+   "full_name": "azure-samples/chat-with-your-data-solution-accelerator",
+   "seeds": [
+    "snowball:Azure-Samples/chat-with-your-data-solution-accelerator"
+   ],
+   "provenance": "snowball"
+  },
+  "microsoft/Document-Knowledge-Mining-Solution-Accelerator": {
+   "full_name": "microsoft/Document-Knowledge-Mining-Solution-Accelerator",
+   "seeds": [
+    "snowball:Azure-Samples/chat-with-your-data-solution-accelerator"
+   ],
+   "provenance": "snowball"
+  },
+  "microsoft/document-generation-solution-accelerator": {
+   "full_name": "microsoft/document-generation-solution-accelerator",
+   "seeds": [
+    "snowball:Azure-Samples/chat-with-your-data-solution-accelerator"
+   ],
+   "provenance": "snowball"
+  },
+  "microsoft/rag-experiment-accelerator": {
+   "full_name": "microsoft/rag-experiment-accelerator",
+   "seeds": [
+    "snowball:Azure-Samples/chat-with-your-data-solution-accelerator"
+   ],
+   "provenance": "snowball"
+  },
+  "microsoft/agent-framework": {
+   "full_name": "microsoft/agent-framework",
+   "seeds": [
+    "snowball:microsoft/semantic-kernel"
+   ],
+   "provenance": "snowball"
+  },
+  "microsoft/semantic-kernel-java": {
+   "full_name": "microsoft/semantic-kernel-java",
+   "seeds": [
+    "snowball:microsoft/semantic-kernel"
+   ],
+   "provenance": "snowball"
+  },
+  "mongodb/mongo-mevd-provider": {
+   "full_name": "mongodb/mongo-mevd-provider",
+   "seeds": [
+    "snowball:microsoft/semantic-kernel"
+   ],
+   "provenance": "snowball"
+  },
+  "pinecone-io/pinecone-dotnet-client": {
+   "full_name": "pinecone-io/pinecone-dotnet-client",
+   "seeds": [
+    "snowball:microsoft/semantic-kernel"
+   ],
+   "provenance": "snowball"
+  },
+  "Azure/gpt-rag": {
+   "full_name": "Azure/gpt-rag",
+   "seeds": [
+    "snowball:Azure/gpt-rag-orchestrator"
+   ],
+   "provenance": "snowball"
+  },
+  "azure/gpt-rag": {
+   "full_name": "azure/gpt-rag",
+   "seeds": [
+    "snowball:Azure/gpt-rag-orchestrator"
+   ],
+   "provenance": "snowball"
+  },
+  "azure/gpt-rag-ingestion": {
+   "full_name": "azure/gpt-rag-ingestion",
+   "seeds": [
+    "snowball:Azure/gpt-rag-orchestrator"
+   ],
+   "provenance": "snowball"
+  },
+  "azure/gpt-rag-orchestrator": {
+   "full_name": "azure/gpt-rag-orchestrator",
+   "seeds": [
+    "snowball:Azure/gpt-rag-orchestrator"
+   ],
+   "provenance": "snowball"
+  },
+  "azure/gpt-rag-ui": {
+   "full_name": "azure/gpt-rag-ui",
+   "seeds": [
+    "snowball:Azure/gpt-rag-orchestrator"
+   ],
+   "provenance": "snowball"
+  },
+  "NaCode-Studios/Kdrant": {
+   "full_name": "NaCode-Studios/Kdrant",
+   "seeds": [
+    "snowball:qdrant/qdrant"
+   ],
+   "provenance": "snowball"
+  },
+  "bazhenov/tango": {
+   "full_name": "bazhenov/tango",
+   "seeds": [
+    "snowball:qdrant/qdrant"
+   ],
+   "provenance": "snowball"
+  },
+  "casey/just": {
+   "full_name": "casey/just",
+   "seeds": [
+    "snowball:qdrant/qdrant"
+   ],
+   "provenance": "snowball"
+  },
+  "dial9-rs/dial9": {
+   "full_name": "dial9-rs/dial9",
+   "seeds": [
+    "snowball:qdrant/qdrant"
+   ],
+   "provenance": "snowball"
+  },
+  "google/pprof": {
+   "full_name": "google/pprof",
+   "seeds": [
+    "snowball:qdrant/qdrant"
+   ],
+   "provenance": "snowball"
+  },
+  "hkulekci/qdrant-php": {
+   "full_name": "hkulekci/qdrant-php",
+   "seeds": [
+    "snowball:qdrant/qdrant"
+   ],
+   "provenance": "snowball"
+  },
+  "hyperium/tonic": {
+   "full_name": "hyperium/tonic",
+   "seeds": [
+    "snowball:qdrant/qdrant"
+   ],
+   "provenance": "snowball"
+  },
+  "mozilla/diversity": {
+   "full_name": "mozilla/diversity",
+   "seeds": [
+    "snowball:qdrant/qdrant"
+   ],
+   "provenance": "snowball"
+  },
+  "qdrant/go-client": {
+   "full_name": "qdrant/go-client",
+   "seeds": [
+    "snowball:qdrant/qdrant"
+   ],
+   "provenance": "snowball"
+  },
+  "qdrant/java-client": {
+   "full_name": "qdrant/java-client",
+   "seeds": [
+    "snowball:qdrant/qdrant"
+   ],
+   "provenance": "snowball"
+  },
+  "qdrant/qdrant-client": {
+   "full_name": "qdrant/qdrant-client",
+   "seeds": [
+    "snowball:qdrant/qdrant"
+   ],
+   "provenance": "snowball"
+  },
+  "qdrant/qdrant-dotnet": {
+   "full_name": "qdrant/qdrant-dotnet",
+   "seeds": [
+    "snowball:qdrant/qdrant"
+   ],
+   "provenance": "snowball"
+  },
+  "qdrant/qdrant-js": {
+   "full_name": "qdrant/qdrant-js",
+   "seeds": [
+    "snowball:qdrant/qdrant"
+   ],
+   "provenance": "snowball"
+  },
+  "qdrant/qdrant-web-ui": {
+   "full_name": "qdrant/qdrant-web-ui",
+   "seeds": [
+    "snowball:qdrant/qdrant"
+   ],
+   "provenance": "snowball"
+  },
+  "qdrant/rust-client": {
+   "full_name": "qdrant/rust-client",
+   "seeds": [
+    "snowball:qdrant/qdrant"
+   ],
+   "provenance": "snowball"
+  },
+  "qdrant/skills": {
+   "full_name": "qdrant/skills",
+   "seeds": [
+    "snowball:qdrant/qdrant"
+   ],
+   "provenance": "snowball"
+  },
+  "rust-lang/rust-clippy": {
+   "full_name": "rust-lang/rust-clippy",
+   "seeds": [
+    "snowball:qdrant/qdrant"
+   ],
+   "provenance": "snowball"
+  },
+  "rust-lang/rustfmt": {
+   "full_name": "rust-lang/rustfmt",
+   "seeds": [
+    "snowball:qdrant/qdrant"
+   ],
+   "provenance": "snowball"
+  },
+  "wolfpld/tracy": {
+   "full_name": "wolfpld/tracy",
+   "seeds": [
+    "snowball:qdrant/qdrant"
+   ],
+   "provenance": "snowball"
+  },
+  "graspologic-org/graspologic": {
+   "full_name": "graspologic-org/graspologic",
+   "seeds": [
+    "snowball:microsoft/graphrag"
+   ],
+   "provenance": "snowball"
+  },
+  "amazon-science/esci-data": {
+   "full_name": "amazon-science/esci-data",
+   "seeds": [
+    "snowball:vespa-engine/sample-apps"
+   ],
+   "provenance": "snowball"
+  },
+  "cognica-io/bayesian-bm25": {
+   "full_name": "cognica-io/bayesian-bm25",
+   "seeds": [
+    "snowball:vespa-engine/sample-apps"
+   ],
+   "provenance": "snowball"
+  },
+  "facebookresearch/dinov2": {
+   "full_name": "facebookresearch/dinov2",
+   "seeds": [
+    "snowball:vespa-engine/sample-apps"
+   ],
+   "provenance": "snowball"
+  },
+  "fxsjy/jieba": {
+   "full_name": "fxsjy/jieba",
+   "seeds": [
+    "snowball:vespa-engine/sample-apps"
+   ],
+   "provenance": "snowball"
+  },
+  "huaban/jieba-analysis": {
+   "full_name": "huaban/jieba-analysis",
+   "seeds": [
+    "snowball:vespa-engine/sample-apps"
+   ],
+   "provenance": "snowball"
+  },
+  "naver/splade": {
+   "full_name": "naver/splade",
+   "seeds": [
+    "snowball:vespa-engine/sample-apps"
+   ],
+   "provenance": "snowball"
+  },
+  "openai/CLIP": {
+   "full_name": "openai/CLIP",
+   "seeds": [
+    "snowball:vespa-engine/sample-apps"
+   ],
+   "provenance": "snowball"
+  },
+  "raphaelsty/neural-cherche": {
+   "full_name": "raphaelsty/neural-cherche",
+   "seeds": [
+    "snowball:vespa-engine/sample-apps"
+   ],
+   "provenance": "snowball"
+  },
+  "stanford-futuredata/ColBERT": {
+   "full_name": "stanford-futuredata/ColBERT",
+   "seeds": [
+    "snowball:vespa-engine/sample-apps"
+   ],
+   "provenance": "snowball"
+  },
+  "usnistgov/trec_eval": {
+   "full_name": "usnistgov/trec_eval",
+   "seeds": [
+    "snowball:vespa-engine/sample-apps"
+   ],
+   "provenance": "snowball"
+  },
+  "vespa-cloud/cord-19-search": {
+   "full_name": "vespa-cloud/cord-19-search",
+   "seeds": [
+    "snowball:vespa-engine/sample-apps"
+   ],
+   "provenance": "snowball"
+  },
+  "vespa-cloud/vector-search": {
+   "full_name": "vespa-cloud/vector-search",
+   "seeds": [
+    "snowball:vespa-engine/sample-apps"
+   ],
+   "provenance": "snowball"
+  },
+  "vespa-cloud/vespa-documentation-search": {
+   "full_name": "vespa-cloud/vespa-documentation-search",
+   "seeds": [
+    "snowball:vespa-engine/sample-apps"
+   ],
+   "provenance": "snowball"
+  },
+  "vespa-engine/cord-19": {
+   "full_name": "vespa-engine/cord-19",
+   "seeds": [
+    "snowball:vespa-engine/sample-apps"
+   ],
+   "provenance": "snowball"
+  },
+  "vespa-engine/documentation": {
+   "full_name": "vespa-engine/documentation",
+   "seeds": [
+    "snowball:vespa-engine/sample-apps"
+   ],
+   "provenance": "snowball"
+  },
+  "microsoft/Multi-Agent-Custom-Automation-Engine-Solution-Accelerator": {
+   "full_name": "microsoft/Multi-Agent-Custom-Automation-Engine-Solution-Accelerator",
+   "seeds": [
+    "snowball:microsoft/Conversation-Knowledge-Mining-Solution-Accelerator"
+   ],
+   "provenance": "snowball"
+  },
+  "Unstructured-IO/unstructured-ingest": {
+   "full_name": "Unstructured-IO/unstructured-ingest",
+   "seeds": [
+    "snowball:Unstructured-IO/unstructured"
+   ],
+   "provenance": "snowball"
+  },
+  "modelscope/eval-scope": {
+   "full_name": "modelscope/eval-scope",
+   "seeds": [
+    "snowball:explodinggradients/ragas"
+   ],
+   "provenance": "snowball"
+  },
+  "modelscope/modelscope": {
+   "full_name": "modelscope/modelscope",
+   "seeds": [
+    "snowball:explodinggradients/ragas"
+   ],
+   "provenance": "snowball"
+  },
+  "vibrantlabsai/ragas": {
+   "full_name": "vibrantlabsai/ragas",
+   "seeds": [
+    "snowball:explodinggradients/ragas"
+   ],
+   "provenance": "snowball"
+  },
+  "apps/dependabot": {
+   "full_name": "apps/dependabot",
+   "seeds": [
+    "snowball:microsoft/kernel-memory"
+   ],
+   "provenance": "snowball"
+  },
+  "NeuCLIR/download-collection": {
+   "full_name": "NeuCLIR/download-collection",
+   "seeds": [
+    "snowball:castorini/pyserini"
+   ],
+   "provenance": "snowball"
+  },
+  "alexlimh/SLIM": {
+   "full_name": "alexlimh/SLIM",
+   "seeds": [
+    "snowball:castorini/pyserini"
+   ],
+   "provenance": "snowball"
+  },
+  "attardi/wikiextractor": {
+   "full_name": "attardi/wikiextractor",
+   "seeds": [
+    "snowball:castorini/pyserini"
+   ],
+   "provenance": "snowball"
+  },
+  "castorini/eval": {
+   "full_name": "castorini/eval",
+   "seeds": [
+    "snowball:castorini/pyserini"
+   ],
+   "provenance": "snowball"
+  },
+  "facebookresearch/DPR": {
+   "full_name": "facebookresearch/DPR",
+   "seeds": [
+    "snowball:castorini/pyserini"
+   ],
+   "provenance": "snowball"
+  },
+  "facebookresearch/KILT": {
+   "full_name": "facebookresearch/KILT",
+   "seeds": [
+    "snowball:castorini/pyserini"
+   ],
+   "provenance": "snowball"
+  },
+  "facebookresearch/faiss": {
+   "full_name": "facebookresearch/faiss",
+   "seeds": [
+    "snowball:castorini/pyserini"
+   ],
+   "provenance": "snowball"
+  },
+  "hltcoe/HC4": {
+   "full_name": "hltcoe/HC4",
+   "seeds": [
+    "snowball:castorini/pyserini"
+   ],
+   "provenance": "snowball"
+  },
+  "informagi/REL": {
+   "full_name": "informagi/REL",
+   "seeds": [
+    "snowball:castorini/pyserini"
+   ],
+   "provenance": "snowball"
+  },
+  "kivy/pyjnius": {
+   "full_name": "kivy/pyjnius",
+   "seeds": [
+    "snowball:castorini/pyserini"
+   ],
+   "provenance": "snowball"
+  },
+  "project-miracl/miracl": {
+   "full_name": "project-miracl/miracl",
+   "seeds": [
+    "snowball:castorini/pyserini"
+   ],
+   "provenance": "snowball"
+  },
+  "AIR-Bench/AIR-Bench": {
+   "full_name": "AIR-Bench/AIR-Bench",
+   "seeds": [
+    "snowball:FlagOpen/FlagEmbedding"
+   ],
+   "provenance": "snowball"
+  },
+  "BlackSamorez/tensor_parallel": {
+   "full_name": "BlackSamorez/tensor_parallel",
+   "seeds": [
+    "snowball:FlagOpen/FlagEmbedding"
+   ],
+   "provenance": "snowball"
+  },
+  "CLUEbenchmark/CLUE": {
+   "full_name": "CLUEbenchmark/CLUE",
+   "seeds": [
+    "snowball:FlagOpen/FlagEmbedding"
+   ],
+   "provenance": "snowball"
+  },
+  "CLUEbenchmark/QBQTC": {
+   "full_name": "CLUEbenchmark/QBQTC",
+   "seeds": [
+    "snowball:FlagOpen/FlagEmbedding"
+   ],
+   "provenance": "snowball"
+  },
+  "CoIR-team/coir": {
+   "full_name": "CoIR-team/coir",
+   "seeds": [
+    "snowball:FlagOpen/FlagEmbedding"
+   ],
+   "provenance": "snowball"
+  },
+  "Cuberick-Orion/CIRR": {
+   "full_name": "Cuberick-Orion/CIRR",
+   "seeds": [
+    "snowball:FlagOpen/FlagEmbedding"
+   ],
+   "provenance": "snowball"
+  },
+  "Debrup-61/RaDeR": {
+   "full_name": "Debrup-61/RaDeR",
+   "seeds": [
+    "snowball:FlagOpen/FlagEmbedding"
+   ],
+   "provenance": "snowball"
+  },
+  "InternLM/HuixiangDou": {
+   "full_name": "InternLM/HuixiangDou",
+   "seeds": [
+    "snowball:FlagOpen/FlagEmbedding"
+   ],
+   "provenance": "snowball"
+  },
+  "JUNJIE99/MLVU": {
+   "full_name": "JUNJIE99/MLVU",
+   "seeds": [
+    "snowball:FlagOpen/FlagEmbedding"
+   ],
+   "provenance": "snowball"
+  },
+  "JUNJIE99/VISTA_Evaluation_FineTuning": {
+   "full_name": "JUNJIE99/VISTA_Evaluation_FineTuning",
+   "seeds": [
+    "snowball:FlagOpen/FlagEmbedding"
+   ],
+   "provenance": "snowball"
+  },
+  "VectorSpaceLab/MegaPairs": {
+   "full_name": "VectorSpaceLab/MegaPairs",
+   "seeds": [
+    "snowball:FlagOpen/FlagEmbedding"
+   ],
+   "provenance": "snowball"
+  },
+  "VectorSpaceLab/OmniGen": {
+   "full_name": "VectorSpaceLab/OmniGen",
+   "seeds": [
+    "snowball:FlagOpen/FlagEmbedding"
+   ],
+   "provenance": "snowball"
+  },
+  "VectorSpaceLab/Vis-IR": {
+   "full_name": "VectorSpaceLab/Vis-IR",
+   "seeds": [
+    "snowball:FlagOpen/FlagEmbedding"
+   ],
+   "provenance": "snowball"
+  },
+  "WebQnA/WebQA": {
+   "full_name": "WebQnA/WebQA",
+   "seeds": [
+    "snowball:FlagOpen/FlagEmbedding"
+   ],
+   "provenance": "snowball"
+  },
+  "XiaoxiaoGuo/fashion-iq": {
+   "full_name": "XiaoxiaoGuo/fashion-iq",
+   "seeds": [
+    "snowball:FlagOpen/FlagEmbedding"
+   ],
+   "provenance": "snowball"
+  },
+  "Yannael/multilingual-embeddings": {
+   "full_name": "Yannael/multilingual-embeddings",
+   "seeds": [
+    "snowball:FlagOpen/FlagEmbedding"
+   ],
+   "provenance": "snowball"
+  },
+  "apple/ml-mkqa": {
+   "full_name": "apple/ml-mkqa",
+   "seeds": [
+    "snowball:FlagOpen/FlagEmbedding"
+   ],
+   "provenance": "snowball"
+  },
+  "baidu/DuReader": {
+   "full_name": "baidu/DuReader",
+   "seeds": [
+    "snowball:FlagOpen/FlagEmbedding"
+   ],
+   "provenance": "snowball"
+  },
+  "code-rag-bench/code-rag-bench": {
+   "full_name": "code-rag-bench/code-rag-bench",
+   "seeds": [
+    "snowball:FlagOpen/FlagEmbedding"
+   ],
+   "provenance": "snowball"
+  },
+  "hiyouga/LLaMA-Factory": {
+   "full_name": "hiyouga/LLaMA-Factory",
+   "seeds": [
+    "snowball:FlagOpen/FlagEmbedding"
+   ],
+   "provenance": "snowball"
+  },
+  "jataware/XRR2": {
+   "full_name": "jataware/XRR2",
+   "seeds": [
+    "snowball:FlagOpen/FlagEmbedding"
+   ],
+   "provenance": "snowball"
+  },
+  "lm-sys/FastChat": {
+   "full_name": "lm-sys/FastChat",
+   "seeds": [
+    "snowball:FlagOpen/FlagEmbedding"
+   ],
+   "provenance": "snowball"
+  },
+  "luomancs/ReMuQ": {
+   "full_name": "luomancs/ReMuQ",
+   "seeds": [
+    "snowball:FlagOpen/FlagEmbedding"
+   ],
+   "provenance": "snowball"
+  },
+  "luyug/Dense": {
+   "full_name": "luyug/Dense",
+   "seeds": [
+    "snowball:FlagOpen/FlagEmbedding"
+   ],
+   "provenance": "snowball"
+  },
+  "luyug/Reranker": {
+   "full_name": "luyug/Reranker",
+   "seeds": [
+    "snowball:FlagOpen/FlagEmbedding"
+   ],
+   "provenance": "snowball"
+  },
+  "mlfoundations/model-soups": {
+   "full_name": "mlfoundations/model-soups",
+   "seeds": [
+    "snowball:FlagOpen/FlagEmbedding"
+   ],
+   "provenance": "snowball"
+  },
+  "mlfoundations/patching": {
+   "full_name": "mlfoundations/patching",
+   "seeds": [
+    "snowball:FlagOpen/FlagEmbedding"
+   ],
+   "provenance": "snowball"
+  },
+  "pluto-junzeng/CNSD": {
+   "full_name": "pluto-junzeng/CNSD",
+   "seeds": [
+    "snowball:FlagOpen/FlagEmbedding"
+   ],
+   "provenance": "snowball"
+  },
+  "princeton-nlp/SimCSE": {
+   "full_name": "princeton-nlp/SimCSE",
+   "seeds": [
+    "snowball:FlagOpen/FlagEmbedding"
+   ],
+   "provenance": "snowball"
+  },
+  "qhjqhj00/MemoRAG": {
+   "full_name": "qhjqhj00/MemoRAG",
+   "seeds": [
+    "snowball:FlagOpen/FlagEmbedding"
+   ],
+   "provenance": "snowball"
+  },
+  "sail-sg/lorahub": {
+   "full_name": "sail-sg/lorahub",
+   "seeds": [
+    "snowball:FlagOpen/FlagEmbedding"
+   ],
+   "provenance": "snowball"
+  },
+  "staoxiao/RetroMAE": {
+   "full_name": "staoxiao/RetroMAE",
+   "seeds": [
+    "snowball:FlagOpen/FlagEmbedding"
+   ],
+   "provenance": "snowball"
+  },
+  "texttron/tevatron": {
+   "full_name": "texttron/tevatron",
+   "seeds": [
+    "snowball:FlagOpen/FlagEmbedding"
+   ],
+   "provenance": "snowball"
+  },
+  "tyqiangz/multilingual-sentiment-datasets": {
+   "full_name": "tyqiangz/multilingual-sentiment-datasets",
+   "seeds": [
+    "snowball:FlagOpen/FlagEmbedding"
+   ],
+   "provenance": "snowball"
+  },
+  "unicamp-dl/mMARCO": {
+   "full_name": "unicamp-dl/mMARCO",
+   "seeds": [
+    "snowball:FlagOpen/FlagEmbedding"
+   ],
+   "provenance": "snowball"
+  },
+  "unslothai/unsloth": {
+   "full_name": "unslothai/unsloth",
+   "seeds": [
+    "snowball:FlagOpen/FlagEmbedding"
+   ],
+   "provenance": "snowball"
+  },
+  "zhangsheng93/cMedQA": {
+   "full_name": "zhangsheng93/cMedQA",
+   "seeds": [
+    "snowball:FlagOpen/FlagEmbedding"
+   ],
+   "provenance": "snowball"
+  },
+  "zhangsheng93/cMedQA2": {
+   "full_name": "zhangsheng93/cMedQA2",
+   "seeds": [
+    "snowball:FlagOpen/FlagEmbedding"
+   ],
+   "provenance": "snowball"
+  },
+  "getzep/building-with-zep-plugin": {
+   "full_name": "getzep/building-with-zep-plugin",
+   "seeds": [
+    "snowball:getzep/zep"
+   ],
+   "provenance": "snowball"
+  },
+  "getzep/graphiti": {
+   "full_name": "getzep/graphiti",
+   "seeds": [
+    "snowball:getzep/zep"
+   ],
+   "provenance": "snowball"
+  },
+  "getzep/zep-graph-visualization": {
+   "full_name": "getzep/zep-graph-visualization",
+   "seeds": [
+    "snowball:getzep/zep"
+   ],
+   "provenance": "snowball"
+  },
+  "getzep/zep-memory-plugin": {
+   "full_name": "getzep/zep-memory-plugin",
+   "seeds": [
+    "snowball:getzep/zep"
+   ],
+   "provenance": "snowball"
+  },
+  "joaomdmoura/crewai": {
+   "full_name": "joaomdmoura/crewai",
+   "seeds": [
+    "snowball:getzep/zep"
+   ],
+   "provenance": "snowball"
+  },
+  "UKPLab/sentence-transformers": {
+   "full_name": "UKPLab/sentence-transformers",
+   "seeds": [
+    "snowball:neuml/txtai"
+   ],
+   "provenance": "snowball"
+  },
+  "aws/serverless-application-model": {
+   "full_name": "aws/serverless-application-model",
+   "seeds": [
+    "snowball:neuml/txtai"
+   ],
+   "provenance": "snowball"
+  },
+  "bastibe/python-soundfile": {
+   "full_name": "bastibe/python-soundfile",
+   "seeds": [
+    "snowball:neuml/txtai"
+   ],
+   "provenance": "snowball"
+  },
+  "neuml/annotateai": {
+   "full_name": "neuml/annotateai",
+   "seeds": [
+    "snowball:neuml/txtai"
+   ],
+   "provenance": "snowball"
+  },
+  "neuml/mlflow-txtai": {
+   "full_name": "neuml/mlflow-txtai",
+   "seeds": [
+    "snowball:neuml/txtai"
+   ],
+   "provenance": "snowball"
+  },
+  "neuml/ncoder": {
+   "full_name": "neuml/ncoder",
+   "seeds": [
+    "snowball:neuml/txtai"
+   ],
+   "provenance": "snowball"
+  },
+  "neuml/paperai": {
+   "full_name": "neuml/paperai",
+   "seeds": [
+    "snowball:neuml/txtai"
+   ],
+   "provenance": "snowball"
+  },
+  "neuml/rag": {
+   "full_name": "neuml/rag",
+   "seeds": [
+    "snowball:neuml/txtai"
+   ],
+   "provenance": "snowball"
+  },
+  "neuml/txtai.js": {
+   "full_name": "neuml/txtai.js",
+   "seeds": [
+    "snowball:neuml/txtai"
+   ],
+   "provenance": "snowball"
+  },
+  "tiangolo/fastapi": {
+   "full_name": "tiangolo/fastapi",
+   "seeds": [
+    "snowball:neuml/txtai"
+   ],
+   "provenance": "snowball"
+  },
+  "microsoft/playwright-python": {
+   "full_name": "microsoft/playwright-python",
+   "seeds": [
+    "snowball:microsoft/content-processing-solution-accelerator"
+   ],
+   "provenance": "snowball"
+  },
+  "azure/gpt-rag-mcp": {
+   "full_name": "azure/gpt-rag-mcp",
+   "seeds": [
+    "snowball:Azure/GPT-RAG"
+   ],
+   "provenance": "snowball"
+  },
+  "khoj-ai/pipali": {
+   "full_name": "khoj-ai/pipali",
+   "seeds": [
+    "snowball:khoj-ai/khoj"
+   ],
+   "provenance": "snowball"
+  },
+  "aws-samples/amazon-bedrock-samples": {
+   "full_name": "aws-samples/amazon-bedrock-samples",
+   "seeds": [
+    "snowball:aws-samples/amazon-bedrock-workshop"
+   ],
+   "provenance": "snowball"
+  },
+  "aws/fmeval": {
+   "full_name": "aws/fmeval",
+   "seeds": [
+    "snowball:aws-samples/amazon-bedrock-workshop"
+   ],
+   "provenance": "snowball"
+  },
+  "SciPhi-AI/R2R-Application": {
+   "full_name": "SciPhi-AI/R2R-Application",
+   "seeds": [
+    "snowball:SciPhi-AI/R2R"
+   ],
+   "provenance": "snowball"
+  },
+  "SciPhi-AI/r2r-webdev-template": {
+   "full_name": "SciPhi-AI/r2r-webdev-template",
+   "seeds": [
+    "snowball:SciPhi-AI/R2R"
+   ],
+   "provenance": "snowball"
+  },
+  "InternLM/lmdeploy": {
+   "full_name": "InternLM/lmdeploy",
+   "seeds": [
+    "snowball:opendatalab/MinerU"
+   ],
+   "provenance": "snowball"
+  },
+  "InternLM/magic-doc": {
+   "full_name": "InternLM/magic-doc",
+   "seeds": [
+    "snowball:opendatalab/MinerU"
+   ],
+   "provenance": "snowball"
+  },
+  "MigoXLab/dingo": {
+   "full_name": "MigoXLab/dingo",
+   "seeds": [
+    "snowball:opendatalab/MinerU"
+   ],
+   "provenance": "snowball"
+  },
+  "OpenDCAI/DataFlow": {
+   "full_name": "OpenDCAI/DataFlow",
+   "seeds": [
+    "snowball:opendatalab/MinerU"
+   ],
+   "provenance": "snowball"
+  },
+  "PaddlePaddle/PaddleOCR": {
+   "full_name": "PaddlePaddle/PaddleOCR",
+   "seeds": [
+    "snowball:opendatalab/MinerU"
+   ],
+   "provenance": "snowball"
+  },
+  "RapidAI/TableStructureRec": {
+   "full_name": "RapidAI/TableStructureRec",
+   "seeds": [
+    "snowball:opendatalab/MinerU"
+   ],
+   "provenance": "snowball"
+  },
+  "frotms/PaddleOCR2Pytorch": {
+   "full_name": "frotms/PaddleOCR2Pytorch",
+   "seeds": [
+    "snowball:opendatalab/MinerU"
+   ],
+   "provenance": "snowball"
+  },
+  "google/magika": {
+   "full_name": "google/magika",
+   "seeds": [
+    "snowball:opendatalab/MinerU"
+   ],
+   "provenance": "snowball"
+  },
+  "myhloli/docvortex": {
+   "full_name": "myhloli/docvortex",
+   "seeds": [
+    "snowball:opendatalab/MinerU"
+   ],
+   "provenance": "snowball"
+  },
+  "myhloli/metafile-render": {
+   "full_name": "myhloli/metafile-render",
+   "seeds": [
+    "snowball:opendatalab/MinerU"
+   ],
+   "provenance": "snowball"
+  },
+  "opendatalab/LabelLLM": {
+   "full_name": "opendatalab/LabelLLM",
+   "seeds": [
+    "snowball:opendatalab/MinerU"
+   ],
+   "provenance": "snowball"
+  },
+  "opendatalab/MinerU-Diffusion": {
+   "full_name": "opendatalab/MinerU-Diffusion",
+   "seeds": [
+    "snowball:opendatalab/MinerU"
+   ],
+   "provenance": "snowball"
+  },
+  "opendatalab/OmniDocBench": {
+   "full_name": "opendatalab/OmniDocBench",
+   "seeds": [
+    "snowball:opendatalab/MinerU"
+   ],
+   "provenance": "snowball"
+  },
+  "opendatalab/PDF-Extract-Kit": {
+   "full_name": "opendatalab/PDF-Extract-Kit",
+   "seeds": [
+    "snowball:opendatalab/MinerU"
+   ],
+   "provenance": "snowball"
+  },
+  "opendatalab/Vis3": {
+   "full_name": "opendatalab/Vis3",
+   "seeds": [
+    "snowball:opendatalab/MinerU"
+   ],
+   "provenance": "snowball"
+  },
+  "opendatalab/awesome-mineru": {
+   "full_name": "opendatalab/awesome-mineru",
+   "seeds": [
+    "snowball:opendatalab/MinerU"
+   ],
+   "provenance": "snowball"
+  },
+  "opendatalab/labelU": {
+   "full_name": "opendatalab/labelU",
+   "seeds": [
+    "snowball:opendatalab/MinerU"
+   ],
+   "provenance": "snowball"
+  },
+  "opendatalab/magic-html": {
+   "full_name": "opendatalab/magic-html",
+   "seeds": [
+    "snowball:opendatalab/MinerU"
+   ],
+   "provenance": "snowball"
+  },
+  "py-pdf/pypdf": {
+   "full_name": "py-pdf/pypdf",
+   "seeds": [
+    "snowball:opendatalab/MinerU"
+   ],
+   "provenance": "snowball"
+  },
+  "pypdfium2-team/pypdfium2": {
+   "full_name": "pypdfium2-team/pypdfium2",
+   "seeds": [
+    "snowball:opendatalab/MinerU"
+   ],
+   "provenance": "snowball"
+  },
+  "vllm-project/vllm": {
+   "full_name": "vllm-project/vllm",
+   "seeds": [
+    "snowball:opendatalab/MinerU"
+   ],
+   "provenance": "snowball"
+  },
+  "alexeygrigorev/clothing-dataset": {
+   "full_name": "alexeygrigorev/clothing-dataset",
+   "seeds": [
+    "snowball:marqo-ai/marqo"
+   ],
+   "provenance": "snowball"
+  },
+  "marqo-ai/marqo-base": {
+   "full_name": "marqo-ai/marqo-base",
+   "seeds": [
+    "snowball:marqo-ai/marqo"
+   ],
+   "provenance": "snowball"
+  },
+  "avishek-sen-gupta/cobol-rekt": {
+   "full_name": "avishek-sen-gupta/cobol-rekt",
+   "seeds": [
+    "snowball:Azure-Samples/Legacy-Modernization-Agents"
+   ],
+   "provenance": "snowball"
+  },
+  "azure-samples/rag-postgres-openai-python": {
+   "full_name": "azure-samples/rag-postgres-openai-python",
+   "seeds": [
+    "snowball:Azure-Samples/rag-postgres-openai-python"
+   ],
+   "provenance": "snowball"
+  },
+  "microsoft/security-devops-action": {
+   "full_name": "microsoft/security-devops-action",
+   "seeds": [
+    "snowball:Azure-Samples/rag-postgres-openai-python"
+   ],
+   "provenance": "snowball"
+  },
+  "features/copilot": {
+   "full_name": "features/copilot",
+   "seeds": [
+    "snowball:Azure-Samples/adaptive-rag-workbench"
+   ],
+   "provenance": "snowball"
+  },
+  "Azure-Samples/azure-search-openai-demo-java": {
+   "full_name": "Azure-Samples/azure-search-openai-demo-java",
+   "seeds": [
+    "snowball:Azure-Samples/azure-openai-rag-workshop"
+   ],
+   "provenance": "snowball"
+  },
+  "Azure-Samples/azureai-samples": {
+   "full_name": "Azure-Samples/azureai-samples",
+   "seeds": [
+    "snowball:Azure-Samples/azure-openai-rag-workshop"
+   ],
+   "provenance": "snowball"
+  },
+  "Azure-Samples/serverless-chat-langchainjs": {
+   "full_name": "Azure-Samples/serverless-chat-langchainjs",
+   "seeds": [
+    "snowball:Azure-Samples/azure-openai-rag-workshop"
+   ],
+   "provenance": "snowball"
+  },
+  "devcontainers/spec": {
+   "full_name": "devcontainers/spec",
+   "seeds": [
+    "snowball:Azure-Samples/azure-openai-rag-workshop"
+   ],
+   "provenance": "snowball"
+  },
+  "fastify/fastify-plugin": {
+   "full_name": "fastify/fastify-plugin",
+   "seeds": [
+    "snowball:Azure-Samples/azure-openai-rag-workshop"
+   ],
+   "provenance": "snowball"
+  },
+  "features/codespaces": {
+   "full_name": "features/codespaces",
+   "seeds": [
+    "snowball:Azure-Samples/azure-openai-rag-workshop"
+   ],
+   "provenance": "snowball"
+  },
+  "microsoft/generative-ai-for-beginners": {
+   "full_name": "microsoft/generative-ai-for-beginners",
+   "seeds": [
+    "snowball:Azure-Samples/azure-openai-rag-workshop"
+   ],
+   "provenance": "snowball"
+  },
+  "ndjson/ndjson-spec": {
+   "full_name": "ndjson/ndjson-spec",
+   "seeds": [
+    "snowball:Azure-Samples/azure-openai-rag-workshop"
+   ],
+   "provenance": "snowball"
+  },
+  "deanmalmgren/textract": {
+   "full_name": "deanmalmgren/textract",
+   "seeds": [
+    "snowball:microsoft/markitdown"
+   ],
+   "provenance": "snowball"
+  },
+  "microsoft/autogen": {
+   "full_name": "microsoft/autogen",
+   "seeds": [
+    "snowball:microsoft/markitdown"
+   ],
+   "provenance": "snowball"
+  },
+  "openai/openai-python": {
+   "full_name": "openai/openai-python",
+   "seeds": [
+    "snowball:microsoft/markitdown"
+   ],
+   "provenance": "snowball"
+  },
+  "allenai/olmocr": {
+   "full_name": "allenai/olmocr",
+   "seeds": [
+    "snowball:VikParuchuri/marker"
+   ],
+   "provenance": "snowball"
+  },
+  "datalab-to/chandra": {
+   "full_name": "datalab-to/chandra",
+   "seeds": [
+    "snowball:VikParuchuri/marker"
+   ],
+   "provenance": "snowball"
+  },
+  "datalab-to/marker": {
+   "full_name": "datalab-to/marker",
+   "seeds": [
+    "snowball:VikParuchuri/marker"
+   ],
+   "provenance": "snowball"
+  },
+  "datalab-to/surya": {
+   "full_name": "datalab-to/surya",
+   "seeds": [
+    "snowball:VikParuchuri/marker"
+   ],
+   "provenance": "snowball"
+  },
+  "neo4j/neo4j": {
+   "full_name": "neo4j/neo4j",
+   "seeds": [
+    "snowball:llmware-ai/llmware"
+   ],
+   "provenance": "snowball"
+  },
+  "postgres/postgres": {
+   "full_name": "postgres/postgres",
+   "seeds": [
+    "snowball:llmware-ai/llmware"
+   ],
+   "provenance": "snowball"
+  },
+  "redis/redis": {
+   "full_name": "redis/redis",
+   "seeds": [
+    "snowball:llmware-ai/llmware"
+   ],
+   "provenance": "snowball"
+  },
+  "openai/evals": {
+   "full_name": "openai/evals",
+   "seeds": [
+    "snowball:uptrain-ai/uptrain"
+   ],
+   "provenance": "snowball"
+  },
+  "azure-ai-foundry/foundry-mcp-playground": {
+   "full_name": "azure-ai-foundry/foundry-mcp-playground",
+   "seeds": [
+    "snowball:azure-ai-foundry/mcp-foundry"
+   ],
+   "provenance": "snowball"
+  },
+  "quivrhq/megaparse": {
+   "full_name": "quivrhq/megaparse",
+   "seeds": [
+    "snowball:QuivrHQ/quivr"
+   ],
+   "provenance": "snowball"
+  },
+  "quivrhq/quivr": {
+   "full_name": "quivrhq/quivr",
+   "seeds": [
+    "snowball:QuivrHQ/quivr"
+   ],
+   "provenance": "snowball"
+  },
+  "stangirard/quivr-whisper": {
+   "full_name": "stangirard/quivr-whisper",
+   "seeds": [
+    "snowball:QuivrHQ/quivr"
+   ],
+   "provenance": "snowball"
+  },
+  "Azure-Samples/intelligent-app-workshop": {
+   "full_name": "Azure-Samples/intelligent-app-workshop",
+   "seeds": [
+    "snowball:Azure-Samples/miyagi"
+   ],
+   "provenance": "snowball"
+  },
+  "Azure-Samples/qdrant-azure": {
+   "full_name": "Azure-Samples/qdrant-azure",
+   "seeds": [
+    "snowball:Azure-Samples/miyagi"
+   ],
+   "provenance": "snowball"
+  },
+  "Azure/cognitive-search-vector-pr": {
+   "full_name": "Azure/cognitive-search-vector-pr",
+   "seeds": [
+    "snowball:Azure-Samples/miyagi"
+   ],
+   "provenance": "snowball"
+  },
+  "Azure/reddog-solutions": {
+   "full_name": "Azure/reddog-solutions",
+   "seeds": [
+    "snowball:Azure-Samples/miyagi"
+   ],
+   "provenance": "snowball"
+  },
+  "hwchase17/langchain": {
+   "full_name": "hwchase17/langchain",
+   "seeds": [
+    "snowball:Azure-Samples/miyagi"
+   ],
+   "provenance": "snowball"
+  },
+  "jerryjliu/llama_index": {
+   "full_name": "jerryjliu/llama_index",
+   "seeds": [
+    "snowball:Azure-Samples/miyagi"
+   ],
+   "provenance": "snowball"
+  },
+  "lllyasviel/ControlNet": {
+   "full_name": "lllyasviel/ControlNet",
+   "seeds": [
+    "snowball:Azure-Samples/miyagi"
+   ],
+   "provenance": "snowball"
+  },
+  "microsoft/TaskWeaver": {
+   "full_name": "microsoft/TaskWeaver",
+   "seeds": [
+    "snowball:Azure-Samples/miyagi"
+   ],
+   "provenance": "snowball"
+  },
+  "microsoft/TypeChat": {
+   "full_name": "microsoft/TypeChat",
+   "seeds": [
+    "snowball:Azure-Samples/miyagi"
+   ],
+   "provenance": "snowball"
+  },
+  "microsoft/guidance": {
+   "full_name": "microsoft/guidance",
+   "seeds": [
+    "snowball:Azure-Samples/miyagi"
+   ],
+   "provenance": "snowball"
+  },
+  "microsoft/semantic-memory": {
+   "full_name": "microsoft/semantic-memory",
+   "seeds": [
+    "snowball:Azure-Samples/miyagi"
+   ],
+   "provenance": "snowball"
+  },
+  "tesseract-ocr/tessdata": {
+   "full_name": "tesseract-ocr/tessdata",
+   "seeds": [
+    "snowball:Azure-Samples/miyagi"
+   ],
+   "provenance": "snowball"
+  },
+  "IEvangelist/blazor-azure-openai": {
+   "full_name": "IEvangelist/blazor-azure-openai",
+   "seeds": [
+    "snowball:Azure-Samples/azure-search-openai-demo-csharp"
+   ],
+   "provenance": "snowball"
+  },
+  "azure-samples/azure-search-openai-demo-csharp": {
+   "full_name": "azure-samples/azure-search-openai-demo-csharp",
+   "seeds": [
+    "snowball:Azure-Samples/azure-search-openai-demo-csharp"
+   ],
+   "provenance": "snowball"
+  },
+  "NThakur20/beir-ColBERT": {
+   "full_name": "NThakur20/beir-ColBERT",
+   "seeds": [
+    "snowball:beir-cellar/beir"
+   ],
+   "provenance": "snowball"
+  },
+  "allenai/scifact": {
+   "full_name": "allenai/scifact",
+   "seeds": [
+    "snowball:beir-cellar/beir"
+   ],
+   "provenance": "snowball"
+  },
+  "huggingface/datasets": {
+   "full_name": "huggingface/datasets",
+   "seeds": [
+    "snowball:beir-cellar/beir"
+   ],
+   "provenance": "snowball"
+  },
+  "tensorflow/datasets": {
+   "full_name": "tensorflow/datasets",
+   "seeds": [
+    "snowball:beir-cellar/beir"
+   ],
+   "provenance": "snowball"
+  },
+  "PrithivirajDamodaran/FlashRank": {
+   "full_name": "PrithivirajDamodaran/FlashRank",
+   "seeds": [
+    "snowball:AnswerDotAI/rerankers"
+   ],
+   "provenance": "snowball"
+  },
+  "answerdotai/rerankers": {
+   "full_name": "answerdotai/rerankers",
+   "seeds": [
+    "snowball:AnswerDotAI/rerankers"
+   ],
+   "provenance": "snowball"
+  },
+  "castorini/rank_llm": {
+   "full_name": "castorini/rank_llm",
+   "seeds": [
+    "snowball:AnswerDotAI/rerankers"
+   ],
+   "provenance": "snowball"
+  },
+  "quchangle1/LLM-Tool-Survey": {
+   "full_name": "quchangle1/LLM-Tool-Survey",
+   "seeds": [
+    "snowball:langchain-ai/langgraph-bigtool"
+   ],
+   "provenance": "snowball"
+  },
+  "Projectplace/pytest-tags": {
+   "full_name": "Projectplace/pytest-tags",
+   "seeds": [
+    "snowball:zilliztech/GPTCache"
+   ],
+   "provenance": "snowball"
+  },
+  "Vision-CAIR/MiniGPT-4": {
+   "full_name": "Vision-CAIR/MiniGPT-4",
+   "seeds": [
+    "snowball:zilliztech/GPTCache"
+   ],
+   "provenance": "snowball"
+  },
+  "databrickslabs/dolly": {
+   "full_name": "databrickslabs/dolly",
+   "seeds": [
+    "snowball:zilliztech/GPTCache"
+   ],
+   "provenance": "snowball"
+  },
+  "docarray/docarray": {
+   "full_name": "docarray/docarray",
+   "seeds": [
+    "snowball:zilliztech/GPTCache"
+   ],
+   "provenance": "snowball"
+  },
+  "facebookresearch/fastText": {
+   "full_name": "facebookresearch/fastText",
+   "seeds": [
+    "snowball:zilliztech/GPTCache"
+   ],
+   "provenance": "snowball"
+  },
+  "milvus-io/milvus-lite": {
+   "full_name": "milvus-io/milvus-lite",
+   "seeds": [
+    "snowball:zilliztech/GPTCache"
+   ],
+   "provenance": "snowball"
+  },
+  "nmslib/hnswlib": {
+   "full_name": "nmslib/hnswlib",
+   "seeds": [
+    "snowball:zilliztech/GPTCache"
+   ],
+   "provenance": "snowball"
+  },
+  "your-repo/agent-framework-journey": {
+   "full_name": "your-repo/agent-framework-journey",
+   "seeds": [
+    "snowball:rajeevsingh-dev/agent-framework-journey"
+   ],
+   "provenance": "snowball"
+  },
+  "nlmatics/llmsherpa": {
+   "full_name": "nlmatics/llmsherpa",
+   "seeds": [
+    "snowball:nlmatics/nlm-ingestor"
+   ],
+   "provenance": "snowball"
+  },
+  "Azure/azure-ai-agents-labs": {
+   "full_name": "Azure/azure-ai-agents-labs",
+   "seeds": [
+    "snowball:microsoft/skmultiagents"
+   ],
+   "provenance": "snowball"
+  },
+  "microsoft/botframework-emulator": {
+   "full_name": "microsoft/botframework-emulator",
+   "seeds": [
+    "snowball:rvinothrajendran/MicrosoftSemanticKernelSamples"
+   ],
+   "provenance": "snowball"
   }
- }
+ },
+ "note": "provenance field records how each repo entered the pool; curated entries carry the author's blind spots by construction"
 }

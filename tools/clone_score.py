@@ -315,6 +315,41 @@ def collect_deletions(root, limit=400):
     return events[:limit]
 
 
+GH_LINK_RE = re.compile(
+    r"https?://github\.com/([A-Za-z0-9_.-]+)/([A-Za-z0-9_.-]+?)(?:\.git)?(?=[)\s\"'#,<\]]|$)")
+NOISE_OWNERS = {"actions", "shields", "badges", "github", "gitpod-io", "python",
+                "nodejs", "docker", "pre-commit", "psf", "astral-sh", "pypa",
+                "readthedocs", "sponsors", "npm", "codecov"}
+NOISE_REPOS = {"license", "blob", "tree", "releases", "issues", "actions", "workflows"}
+
+
+def referenced_repos(root, paths, limit=60):
+    """GitHub repos this project points at, from its docs and manifests.
+
+    Feeds snowball expansion of the candidate pool: repos that working retrieval
+    code depends on, rather than repos somebody curated.
+    """
+    out = set()
+    interesting = [p for p in paths
+                   if os.path.basename(p).lower() in (
+                       "readme.md", "requirements.txt", "pyproject.toml",
+                       "package.json", "go.mod", "docs.md", "architecture.md")
+                   or p.lower().startswith("docs/")][:40]
+    for rel in interesting:
+        try:
+            with open(os.path.join(root, rel), encoding="utf-8", errors="replace") as f:
+                body = f.read(200_000)
+        except OSError:
+            continue
+        for owner, name in GH_LINK_RE.findall(body):
+            if owner.lower() in NOISE_OWNERS or name.lower() in NOISE_REPOS:
+                continue
+            if "." in name and not name.endswith((".js", ".py")):
+                continue
+            out.add(f"{owner}/{name}")
+    return sorted(out)[:limit]
+
+
 def classify_kind(root, paths, rag_files):
     """Classify what KIND of thing this repo is.
 
@@ -438,6 +473,7 @@ def score_repo(full_name, seeds):
             "evidence": e,
             "composite": round(sum(s[k] * WEIGHTS[k] for k in WEIGHTS), 4),
             "deletions": collect_deletions(root),
+            "referenced_repos": referenced_repos(root, paths),
             "scored_at": NOW.isoformat(),
         }
     finally:
