@@ -1,0 +1,19 @@
+{
+ "candidates": {
+  "Azure-Samples/azure-search-openai-demo": {
+   "seeds": [
+    "vendor:Azure-Samples"
+   ]
+  },
+  "explodinggradients/ragas": {
+   "seeds": [
+    "eval"
+   ]
+  },
+  "infiniflow/ragflow": {
+   "seeds": [
+    "dependency"
+   ]
+  }
+ }
+}
